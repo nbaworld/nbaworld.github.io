@@ -1,121 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T16:19:28.321599Z",
+  "generatedAt": "2026-11-08T16:16:40.590578Z",
   "timezone": "Asia/Shanghai",
-  "defaultDate": "2026-11-09",
+  "defaultDate": "2026-11-10",
   "days": {
-    "2026-11-08": {
-      "games": [
-        {
-          "id": "401909938",
-          "start": "2026-11-07T22:00:00Z",
-          "home": {
-            "code": "IND",
-            "name": "步行者"
-          },
-          "away": {
-            "code": "DEN",
-            "name": "掘金"
-          },
-          "status": "Scheduled",
-          "venue": "Arena CDMX",
-          "source": "ESPN"
-        },
-        {
-          "id": "401909939",
-          "start": "2026-11-08T00:30:00Z",
-          "home": {
-            "code": "ATL",
-            "name": "老鹰"
-          },
-          "away": {
-            "code": "BKN",
-            "name": "篮网"
-          },
-          "status": "Scheduled",
-          "venue": "State Farm Arena",
-          "source": "ESPN"
-        },
-        {
-          "id": "401909940",
-          "start": "2026-11-08T01:00:00Z",
-          "home": {
-            "code": "CLE",
-            "name": "骑士"
-          },
-          "away": {
-            "code": "NYK",
-            "name": "尼克斯"
-          },
-          "status": "Scheduled",
-          "venue": "Rocket Arena",
-          "source": "ESPN"
-        },
-        {
-          "id": "401909941",
-          "start": "2026-11-08T01:00:00Z",
-          "home": {
-            "code": "OKC",
-            "name": "雷霆"
-          },
-          "away": {
-            "code": "WAS",
-            "name": "奇才"
-          },
-          "status": "Scheduled",
-          "venue": "Paycom Center",
-          "source": "ESPN"
-        },
-        {
-          "id": "401909942",
-          "start": "2026-11-08T01:30:00Z",
-          "home": {
-            "code": "GSW",
-            "name": "勇士"
-          },
-          "away": {
-            "code": "ORL",
-            "name": "魔术"
-          },
-          "status": "Scheduled",
-          "venue": "Chase Center",
-          "source": "ESPN"
-        },
-        {
-          "id": "401909943",
-          "start": "2026-11-08T02:00:00Z",
-          "home": {
-            "code": "PHX",
-            "name": "太阳"
-          },
-          "away": {
-            "code": "HOU",
-            "name": "火箭"
-          },
-          "status": "Scheduled",
-          "venue": "Mortgage Matchup Center",
-          "source": "ESPN"
-        },
-        {
-          "id": "401909944",
-          "start": "2026-11-08T03:00:00Z",
-          "home": {
-            "code": "POR",
-            "name": "开拓者"
-          },
-          "away": {
-            "code": "SAS",
-            "name": "马刺"
-          },
-          "status": "Scheduled",
-          "venue": "Moda Center",
-          "source": "ESPN"
-        }
-      ],
-      "state": "fresh",
-      "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z"
-    },
     "2026-11-09": {
       "games": [
         {
@@ -226,42 +114,152 @@
       ],
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z"
+      "fetchedAt": "2026-11-08T16:16:40.590578Z"
+    },
+    "2026-11-10": {
+      "games": [
+        {
+          "id": "401909952",
+          "start": "2026-11-10T00:00:00Z",
+          "home": {
+            "code": "ATL",
+            "name": "老鹰"
+          },
+          "away": {
+            "code": "LAL",
+            "name": "湖人"
+          },
+          "status": "Scheduled",
+          "venue": "State Farm Arena",
+          "source": "ESPN"
+        },
+        {
+          "id": "401909953",
+          "start": "2026-11-10T00:00:00Z",
+          "home": {
+            "code": "CHA",
+            "name": "黄蜂"
+          },
+          "away": {
+            "code": "CLE",
+            "name": "骑士"
+          },
+          "status": "Scheduled",
+          "venue": "Spectrum Center",
+          "source": "ESPN"
+        },
+        {
+          "id": "401909954",
+          "start": "2026-11-10T00:00:00Z",
+          "home": {
+            "code": "DET",
+            "name": "活塞"
+          },
+          "away": {
+            "code": "WAS",
+            "name": "奇才"
+          },
+          "status": "Scheduled",
+          "venue": "Little Caesars Arena",
+          "source": "ESPN"
+        },
+        {
+          "id": "401909955",
+          "start": "2026-11-10T00:30:00Z",
+          "home": {
+            "code": "TOR",
+            "name": "猛龙"
+          },
+          "away": {
+            "code": "MEM",
+            "name": "灰熊"
+          },
+          "status": "Scheduled",
+          "venue": "Scotiabank Arena",
+          "source": "ESPN"
+        },
+        {
+          "id": "401909956",
+          "start": "2026-11-10T01:00:00Z",
+          "home": {
+            "code": "DAL",
+            "name": "独行侠"
+          },
+          "away": {
+            "code": "IND",
+            "name": "步行者"
+          },
+          "status": "Scheduled",
+          "venue": "American Airlines Center",
+          "source": "ESPN"
+        },
+        {
+          "id": "401909957",
+          "start": "2026-11-10T01:30:00Z",
+          "home": {
+            "code": "HOU",
+            "name": "火箭"
+          },
+          "away": {
+            "code": "DEN",
+            "name": "掘金"
+          },
+          "status": "Scheduled",
+          "venue": "Toyota Center (Houston)",
+          "source": "ESPN"
+        },
+        {
+          "id": "401909958",
+          "start": "2026-11-10T02:00:00Z",
+          "home": {
+            "code": "PHX",
+            "name": "太阳"
+          },
+          "away": {
+            "code": "SAS",
+            "name": "马刺"
+          },
+          "status": "Scheduled",
+          "venue": "Mortgage Matchup Center",
+          "source": "ESPN"
+        },
+        {
+          "id": "401909959",
+          "start": "2026-11-10T03:00:00Z",
+          "home": {
+            "code": "GSW",
+            "name": "勇士"
+          },
+          "away": {
+            "code": "NOP",
+            "name": "鹈鹕"
+          },
+          "status": "Scheduled",
+          "venue": "Chase Center",
+          "source": "ESPN"
+        }
+      ],
+      "state": "fresh",
+      "source": "ESPN",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z"
     }
   },
   "injuries": {
     "ATL": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
-        {
-          "player": "Keshon Gilbert",
-          "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
-          "reason": "Knee",
-          "timeline": "2026-11-07",
-          "note": "Gilbert is out for Friday's game against the Wizards due to left knee inflammation.",
-          "reportedAt": "2026-11-07T15:08Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "凯雄·吉尔伯特",
-          "nameNeedsReview": false,
-          "reasonZh": "膝盖伤势"
-        },
         {
           "player": "Asa Newell",
           "id": "",
           "status": "questionable",
           "rawStatus": "Day-To-Day",
           "reason": "Toe",
-          "timeline": "2026-11-07",
-          "note": "Newell (toe) is out for Friday's game against Washington.",
-          "reportedAt": "2026-11-07T15:07Z",
+          "timeline": "2026-11-09",
+          "note": "Newell (toe)  is out for Saturday's game against the Nets.",
+          "reportedAt": "2026-11-08T15:59Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -271,21 +269,21 @@
           "reasonZh": "脚趾伤势"
         },
         {
-          "player": "Jalen Johnson",
+          "player": "Keshon Gilbert",
           "id": "",
-          "status": "out",
-          "rawStatus": "Out",
-          "reason": "Ankle",
-          "timeline": "2026-11-07",
-          "note": "Johnson (ankle) is out for Friday's game against the Wizards.",
-          "reportedAt": "2026-11-06T22:06Z",
+          "status": "questionable",
+          "rawStatus": "Day-To-Day",
+          "reason": "Knee",
+          "timeline": "2026-11-09",
+          "note": "Gilbert (knee) is out for Saturday's game against Brooklyn.",
+          "reportedAt": "2026-11-08T15:59Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
           "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "杰伦·约翰逊",
+          "playerZh": "凯雄·吉尔伯特",
           "nameNeedsReview": false,
-          "reasonZh": "脚踝伤势"
+          "reasonZh": "膝盖伤势"
         },
         {
           "player": "Jock Landale",
@@ -293,9 +291,9 @@
           "status": "out",
           "rawStatus": "Out",
           "reason": "Hip",
-          "timeline": "2026-11-07",
-          "note": "Landale (hip) has been ruled out for Friday's game against the Wizards.",
-          "reportedAt": "2026-11-05T22:12Z",
+          "timeline": "2026-11-09",
+          "note": "Landale (hip) has been ruled out for Saturday's game against the Nets.",
+          "reportedAt": "2026-11-07T18:14Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -340,70 +338,28 @@
         }
       ]
     },
-    "BOS": {
-      "state": "fresh",
-      "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
-      "players": [
-        {
-          "player": "Devin Carter",
-          "id": "",
-          "status": "out",
-          "rawStatus": "Out",
-          "reason": "Illness",
-          "timeline": "2026-11-06",
-          "note": "Carter (illness) practiced with the G League's Maine Celtics on Wednesday.",
-          "reportedAt": "2026-11-04T23:58Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "需复核",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "德文·卡特",
-          "nameNeedsReview": false,
-          "reasonZh": "生病"
-        }
-      ]
-    },
     "BKN": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
-          "player": "Noah Clowney",
+          "player": "Mikel Brown Jr.",
           "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
-          "reason": "Illness",
-          "timeline": "2026-11-07",
-          "note": "Clowney is listed as questionable for Saturday's game against the Hawks due to an illness.",
-          "reportedAt": "2026-11-07T15:19Z",
+          "status": "out",
+          "rawStatus": "Out",
+          "reason": "Rest",
+          "timeline": "2026-11-11",
+          "note": "Brown, who finished with 18 points (5-13 FG, 3-8 3Pt, 5-7 FT), one rebound, three assists and one steal over 25 minutes in Saturday's 124-121 loss to Atlanta, won't play in Sunday's game against Dallas, Erik Slater of ClutchPoints.com reports.",
+          "reportedAt": "2026-11-08T04:04Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
           "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "诺厄·克洛尼",
+          "playerZh": "小米克尔·布朗",
           "nameNeedsReview": false,
-          "reasonZh": "生病"
-        },
-        {
-          "player": "Day'Ron Sharpe",
-          "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
-          "reason": "Undisclosed",
-          "timeline": "2026-11-04",
-          "note": "Sharpe registered 15 points (5-7 FG, 1-1 3Pt, 4-5 FT), 13 rebounds and four assists across 26 minutes in Sunday's 98-90 win over the Pacers.",
-          "reportedAt": "2026-11-05T02:29Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "需复核",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "戴罗恩·夏普",
-          "nameNeedsReview": false,
-          "reasonZh": "伤情未公开"
+          "reasonZh": "轮休"
         },
         {
           "player": "Egor Demin",
@@ -421,32 +377,32 @@
           "playerZh": "叶戈尔·杰明",
           "nameNeedsReview": false,
           "reasonZh": "腿部伤势"
-        },
-        {
-          "player": "Tyler Bilodeau",
-          "id": "",
-          "status": "out",
-          "rawStatus": "Out",
-          "reason": "Shoulder",
-          "timeline": "2026-11-07",
-          "note": "Bilodeau (shoulder) has been ruled out for Sunday's game against Indiana.",
-          "reportedAt": "2026-10-25T17:19Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "需复核",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "泰勒·比洛多",
-          "nameNeedsReview": false,
-          "reasonZh": "肩部伤势"
         }
       ]
     },
     "CHA": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
+        {
+          "player": "Moussa Diabate",
+          "id": "",
+          "status": "questionable",
+          "rawStatus": "Day-To-Day",
+          "reason": "Quadriceps",
+          "timeline": "2026-11-09",
+          "note": "Diabate (quadriceps) has been ruled out for Friday's game against Boston, according to the Hornets' official injury report.",
+          "reportedAt": "2026-11-07T17:39Z",
+          "source": "ESPN",
+          "sourceUrl": "https://www.espn.com/nba/injuries",
+          "confidence": "媒体近期报告",
+          "scope": "球队伤病名单，非本场官方确认",
+          "playerZh": "穆萨·迪亚巴特",
+          "nameNeedsReview": false,
+          "reasonZh": "股四头肌伤势"
+        },
         {
           "player": "Brandon Miller",
           "id": "",
@@ -482,23 +438,6 @@
           "reasonZh": "大腿伤势"
         },
         {
-          "player": "Moussa Diabate",
-          "id": "",
-          "status": "out",
-          "rawStatus": "Out",
-          "reason": "Quadriceps",
-          "timeline": "2026-11-09",
-          "note": "Diabate (quadriceps) has been ruled out for Friday's game against Boston, according to the Hornets' official injury report.",
-          "reportedAt": "2026-11-06T18:08Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "穆萨·迪亚巴特",
-          "nameNeedsReview": false,
-          "reasonZh": "股四头肌伤势"
-        },
-        {
           "player": "Kon Knueppel",
           "id": "",
           "status": "out",
@@ -509,7 +448,7 @@
           "reportedAt": "2026-11-05T22:05Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
+          "confidence": "需复核",
           "scope": "球队伤病名单，非本场官方确认",
           "playerZh": "康·克尼佩尔",
           "nameNeedsReview": false,
@@ -537,25 +476,59 @@
     "CHI": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
-          "player": "Zach Collins",
+          "player": "Norman Powell",
           "id": "",
           "status": "questionable",
           "rawStatus": "Day-To-Day",
-          "reason": "Illness",
+          "reason": "Shoulder",
           "timeline": "2026-11-08",
-          "note": "Collins didn't practice Friday due to an illness, per K.C. Johnson of Chicago Sports Network.",
-          "reportedAt": "2026-11-06T19:19Z",
+          "note": "Powell (shoulder) is listed as questionable for Sunday's game against the 76ers.",
+          "reportedAt": "2026-11-08T15:07Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
           "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "扎克·科林斯",
+          "playerZh": "诺曼·鲍威尔",
           "nameNeedsReview": false,
-          "reasonZh": "生病"
+          "reasonZh": "肩部伤势"
+        },
+        {
+          "player": "Tobe Awaka",
+          "id": "",
+          "status": "questionable",
+          "rawStatus": "Day-To-Day",
+          "reason": "Knee",
+          "timeline": "2026-11-08",
+          "note": "Awaka (knee) is questionable for Sundays' game against the 76ers.",
+          "reportedAt": "2026-11-07T21:36Z",
+          "source": "ESPN",
+          "sourceUrl": "https://www.espn.com/nba/injuries",
+          "confidence": "媒体近期报告",
+          "scope": "球队伤病名单，非本场官方确认",
+          "playerZh": "托比·阿瓦卡",
+          "nameNeedsReview": false,
+          "reasonZh": "膝盖伤势"
+        },
+        {
+          "player": "Jalen Smith",
+          "id": "",
+          "status": "questionable",
+          "rawStatus": "Day-To-Day",
+          "reason": "Finger",
+          "timeline": "2026-11-08",
+          "note": "Smith (finger) is probable for Sunday's game against Philadelphia.",
+          "reportedAt": "2026-11-07T21:31Z",
+          "source": "ESPN",
+          "sourceUrl": "https://www.espn.com/nba/injuries",
+          "confidence": "媒体近期报告",
+          "scope": "球队伤病名单，非本场官方确认",
+          "playerZh": "杰伦·史密斯",
+          "nameNeedsReview": false,
+          "reasonZh": "手指伤势"
         },
         {
           "player": "Nic Claxton",
@@ -564,8 +537,8 @@
           "rawStatus": "Out",
           "reason": "Hamstring",
           "timeline": "2026-11-08",
-          "note": "Head coach Tiago Splittler said Friday that Claxton (hamstring) is expected to make his season debut Sunday against the 76ers, per Joel Lorenzi of The Athletic.",
-          "reportedAt": "2026-11-06T18:21Z",
+          "note": "Claxton (hamstring) has been downgraded to questionable for Sunday's game against the 76ers.",
+          "reportedAt": "2026-11-07T21:25Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -575,29 +548,29 @@
           "reasonZh": "腿筋伤势"
         },
         {
-          "player": "Jalen Smith",
+          "player": "Zach Collins",
           "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
-          "reason": "Hand",
-          "timeline": "2026-11-08",
-          "note": "Smith (hand) won't return to Wednesday's game against the Knicks.",
-          "reportedAt": "2026-11-05T01:35Z",
+          "status": "out",
+          "rawStatus": "Out",
+          "reason": "Illness",
+          "timeline": "2026-11-11",
+          "note": "Collins (illness) is out for Sunday's game against Philadelphia.",
+          "reportedAt": "2026-11-07T21:24Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "需复核",
+          "confidence": "媒体近期报告",
           "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "杰伦·史密斯",
+          "playerZh": "扎克·科林斯",
           "nameNeedsReview": false,
-          "reasonZh": "手部伤势"
+          "reasonZh": "生病"
         }
       ]
     },
     "CLE": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
           "player": "Sam Merrill",
@@ -605,9 +578,9 @@
           "status": "questionable",
           "rawStatus": "Day-To-Day",
           "reason": "Elbow",
-          "timeline": "2026-11-07",
-          "note": "Merrill (elbow) won't return to Friday's game against the 76ers, Dave McMenamin of ESPN.com reports.",
-          "reportedAt": "2026-11-07T15:08Z",
+          "timeline": "2026-11-09",
+          "note": "Merrill (elbow) is out for Saturday's game against the Knicks.",
+          "reportedAt": "2026-11-08T16:01Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -622,9 +595,9 @@
           "status": "questionable",
           "rawStatus": "Day-To-Day",
           "reason": "Knee",
-          "timeline": "2026-11-07",
-          "note": "Allen (knee) is out for Friday's game against the 76ers.",
-          "reportedAt": "2026-11-07T15:07Z",
+          "timeline": "2026-11-09",
+          "note": "Allen (knee) is out for Saturday's game against the Knicks",
+          "reportedAt": "2026-11-08T16:01Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -639,9 +612,9 @@
           "status": "out",
           "rawStatus": "Out",
           "reason": "Ankle",
-          "timeline": "2026-11-07",
-          "note": "Tyson (ankle) is out for Friday's game against the 76ers.",
-          "reportedAt": "2026-11-05T22:23Z",
+          "timeline": "2026-11-09",
+          "note": "Tyson (ankle) is out for Saturday's game against the Knicks.",
+          "reportedAt": "2026-11-07T18:14Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -655,8 +628,8 @@
     "DAL": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
           "player": "Sergio de Larrea",
@@ -669,7 +642,7 @@
           "reportedAt": "2026-11-05T22:24Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
+          "confidence": "需复核",
           "scope": "球队伤病名单，非本场官方确认",
           "playerZh": "塞尔吉奥·德·拉雷亚",
           "nameNeedsReview": false,
@@ -714,26 +687,9 @@
     "DEN": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
-        {
-          "player": "DeMar DeRozan",
-          "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
-          "reason": "Back",
-          "timeline": "2026-11-07",
-          "note": "DeRozan (back) is probable for Saturday's game against the Pacers.",
-          "reportedAt": "2026-11-06T22:48Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "德马尔·德罗赞",
-          "nameNeedsReview": false,
-          "reasonZh": "背部伤势"
-        },
         {
           "player": "Julian Strawther",
           "id": "",
@@ -756,8 +712,8 @@
     "DET": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
           "player": "Isaiah Joe",
@@ -765,12 +721,12 @@
           "status": "out",
           "rawStatus": "Out",
           "reason": "Hip",
-          "timeline": "2026-11-08",
-          "note": "Joe (hip) has been ruled out for Wednesday's game against Philadelphia.",
-          "reportedAt": "2026-11-03T21:18Z",
+          "timeline": "2026-11-09",
+          "note": "Joe (hip) has been ruled out for Sunday's game against the Lakers.",
+          "reportedAt": "2026-11-07T21:59Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "需复核",
+          "confidence": "媒体近期报告",
           "scope": "球队伤病名单，非本场官方确认",
           "playerZh": "以赛亚·乔",
           "nameNeedsReview": false,
@@ -782,7 +738,7 @@
           "status": "out",
           "rawStatus": "Out",
           "reason": "Hamstring",
-          "timeline": "2026-11-09",
+          "timeline": "2026-11-24",
           "note": "Duren will be re-evaluated in two weeks due to a right hamstring strain, Eric Vincent of ClutchPoints.com reports.",
           "reportedAt": "2026-10-25T14:56Z",
           "source": "ESPN",
@@ -798,43 +754,9 @@
     "GSW": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
-        {
-          "player": "Draymond Green",
-          "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
-          "reason": "Elbow",
-          "timeline": "2026-11-07",
-          "note": "Green (elbow) is listed as questionable ahead of Saturday's game against Orlando.",
-          "reportedAt": "2026-11-06T22:21Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "德雷蒙德·格林",
-          "nameNeedsReview": false,
-          "reasonZh": "肘部伤势"
-        },
-        {
-          "player": "Gary Payton II",
-          "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
-          "reason": "Calf",
-          "timeline": "2026-11-07",
-          "note": "Payton is questionable to play Saturday against the Magic due to right calf tightness.",
-          "reportedAt": "2026-11-06T22:21Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "Gary Payton II",
-          "nameNeedsReview": true,
-          "reasonZh": "小腿伤势"
-        },
         {
           "player": "Kristaps Porzingis",
           "id": "",
@@ -851,23 +773,6 @@
           "playerZh": "克里斯塔普斯·波尔津吉斯",
           "nameNeedsReview": false,
           "reasonZh": "生病"
-        },
-        {
-          "player": "Gui Santos",
-          "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
-          "reason": "Knee",
-          "timeline": "2026-11-07",
-          "note": "Santos (knee) is questionable for Saturday's game versus Orlando, per Nick Friedell of The Athletic.",
-          "reportedAt": "2026-11-06T20:49Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "吉·桑托斯",
-          "nameNeedsReview": false,
-          "reasonZh": "膝盖伤势"
         },
         {
           "player": "Moses Moody",
@@ -908,8 +813,8 @@
     "HOU": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
           "player": "Clint Capela",
@@ -950,42 +855,25 @@
     "IND": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
-          "player": "T.J. McConnell",
+          "player": "Tyrese Haliburton",
           "id": "",
           "status": "out",
           "rawStatus": "Out",
           "reason": "Hamstring",
-          "timeline": "2026-11-07",
-          "note": "McConnell (hamstring) is questionable for Saturday's game against Denver.",
-          "reportedAt": "2026-11-06T23:06Z",
+          "timeline": "2026-11-13",
+          "note": "Haliburton (hamstring) is progressing well but does not have a timetable to return, Dustin Dopirak of The Indianapolis Star reports.",
+          "reportedAt": "2026-11-07T20:46Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
           "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "T.J.·麦康奈尔",
+          "playerZh": "泰雷斯·哈利伯顿",
           "nameNeedsReview": false,
           "reasonZh": "腿筋伤势"
-        },
-        {
-          "player": "Kelly Oubre Jr.",
-          "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
-          "reason": "Calf",
-          "timeline": "2026-11-07",
-          "note": "Oubre (calf) is questionable for Saturday's game against Denver.",
-          "reportedAt": "2026-11-06T23:04Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "小凯利·乌布雷",
-          "nameNeedsReview": false,
-          "reasonZh": "小腿伤势"
         },
         {
           "player": "Johnny Furphy",
@@ -1020,31 +908,14 @@
           "playerZh": "本·谢泼德",
           "nameNeedsReview": false,
           "reasonZh": "膝盖伤势"
-        },
-        {
-          "player": "Tyrese Haliburton",
-          "id": "",
-          "status": "out",
-          "rawStatus": "Out",
-          "reason": "Hamstring",
-          "timeline": "2026-11-13",
-          "note": "Haliburton (hamstring) will miss at least the next two weeks of action, Shams Charania of ESPN reports.",
-          "reportedAt": "2026-10-28T21:30Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "需复核",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "泰雷斯·哈利伯顿",
-          "nameNeedsReview": false,
-          "reasonZh": "腿筋伤势"
         }
       ]
     },
     "LAC": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
           "player": "Brandon Ingram",
@@ -1052,9 +923,9 @@
           "status": "out",
           "rawStatus": "Out",
           "reason": "Achilles",
-          "timeline": "2026-11-08",
-          "note": "Ingram (Achilles) has progressed to full contact basketball activities, per NBA writer Justin Russo.",
-          "reportedAt": "2026-11-06T20:20Z",
+          "timeline": "2026-11-10",
+          "note": "Ingram (Achilles) won't play in Sunday's game against New Orleans, Law Murray of The Athletic reports.",
+          "reportedAt": "2026-11-08T01:11Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -1064,12 +935,29 @@
           "reasonZh": "跟腱伤势"
         },
         {
+          "player": "Isaiah Jackson",
+          "id": "",
+          "status": "out",
+          "rawStatus": "Out",
+          "reason": "Groin",
+          "timeline": "2026-11-10",
+          "note": "Jackson (groin) won't suit up for Sunday's game against the Pelicans, Law Murray of The Athletic reports.",
+          "reportedAt": "2026-11-08T01:03Z",
+          "source": "ESPN",
+          "sourceUrl": "https://www.espn.com/nba/injuries",
+          "confidence": "媒体近期报告",
+          "scope": "球队伤病名单，非本场官方确认",
+          "playerZh": "以赛亚·杰克逊",
+          "nameNeedsReview": false,
+          "reasonZh": "腹股沟伤势"
+        },
+        {
           "player": "Yanic Konan Niederhauser",
           "id": "",
           "status": "out",
           "rawStatus": "Out",
           "reason": "Foot",
-          "timeline": "2026-11-08",
+          "timeline": "2026-11-10",
           "note": "The Clippers recalled Niederhauser (foot) from the G League's San Diego Clippers on Sunday.",
           "reportedAt": "2026-11-02T16:12Z",
           "source": "ESPN",
@@ -1116,12 +1004,54 @@
         }
       ]
     },
+    "LAL": {
+      "state": "fresh",
+      "source": "ESPN",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
+      "players": [
+        {
+          "player": "Luka Doncic",
+          "id": "",
+          "status": "questionable",
+          "rawStatus": "Day-To-Day",
+          "reason": "Back",
+          "timeline": "2026-11-08",
+          "note": "Doncic (back) is questionable for Sunday's game against the Pistons.",
+          "reportedAt": "2026-11-07T22:11Z",
+          "source": "ESPN",
+          "sourceUrl": "https://www.espn.com/nba/injuries",
+          "confidence": "媒体近期报告",
+          "scope": "球队伤病名单，非本场官方确认",
+          "playerZh": "卢卡·东契奇",
+          "nameNeedsReview": false,
+          "reasonZh": "背部伤势"
+        }
+      ]
+    },
     "MEM": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
+        {
+          "player": "Richie Saunders",
+          "id": "",
+          "status": "out",
+          "rawStatus": "Out",
+          "reason": "Knee",
+          "timeline": "2026-12-01",
+          "note": "Saunders signed a two-way contract with the Grizzlies on Saturday, Shams Charania of ESPN reports.",
+          "reportedAt": "2026-11-07T17:24Z",
+          "source": "ESPN",
+          "sourceUrl": "https://www.espn.com/nba/injuries",
+          "confidence": "媒体近期报告",
+          "scope": "球队伤病名单，非本场官方确认",
+          "playerZh": "Richie Saunders",
+          "nameNeedsReview": true,
+          "reasonZh": "膝盖伤势"
+        },
         {
           "player": "Isaiah Stewart",
           "id": "",
@@ -1133,7 +1063,7 @@
           "reportedAt": "2026-11-05T23:04Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
+          "confidence": "需复核",
           "scope": "球队伤病名单，非本场官方确认",
           "playerZh": "以赛亚·斯图尔特",
           "nameNeedsReview": false,
@@ -1150,7 +1080,7 @@
           "reportedAt": "2026-11-05T23:03Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
+          "confidence": "需复核",
           "scope": "球队伤病名单，非本场官方确认",
           "playerZh": "Scotty Pippen Jr.",
           "nameNeedsReview": true,
@@ -1158,36 +1088,11 @@
         }
       ]
     },
-    "MIL": {
-      "state": "fresh",
-      "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
-      "players": [
-        {
-          "player": "Kam Jones",
-          "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
-          "reason": "Ankle",
-          "timeline": "2026-11-06",
-          "note": "Jones (ankle/two-way player) is out for Friday's game against Toronto.",
-          "reportedAt": "2026-11-06T15:08Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "卡姆·琼斯",
-          "nameNeedsReview": false,
-          "reasonZh": "脚踝伤势"
-        }
-      ]
-    },
     "MIN": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
           "player": "Joan Beringer",
@@ -1196,8 +1101,8 @@
           "rawStatus": "Day-To-Day",
           "reason": "Fracture",
           "timeline": "2026-11-08",
-          "note": "Beringer was ruled out for the second half of Friday's game against the Pelicans due to a nasal fracture, Dane Moore of 'The Dane Moore NBA Podcast' reports.",
-          "reportedAt": "2026-11-07T15:05Z",
+          "note": "Beringer (nose) is questionable for Sunday's game against the Jazz.",
+          "reportedAt": "2026-11-07T23:10Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -1205,23 +1110,6 @@
           "playerZh": "若昂·贝兰热",
           "nameNeedsReview": false,
           "reasonZh": "伤情待核实"
-        },
-        {
-          "player": "Terrence Shannon Jr.",
-          "id": "",
-          "status": "out",
-          "rawStatus": "Out",
-          "reason": "Hip",
-          "timeline": "2026-11-08",
-          "note": "Shannon (hip) has been ruled out for Friday's game against New Orleans.",
-          "reportedAt": "2026-11-06T18:06Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "Terrence Shannon Jr.",
-          "nameNeedsReview": true,
-          "reasonZh": "髋部伤势"
         },
         {
           "player": "Anthony Edwards",
@@ -1262,8 +1150,8 @@
     "NOP": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
           "player": "Yves Missi",
@@ -1276,7 +1164,7 @@
           "reportedAt": "2026-11-05T20:47Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
+          "confidence": "需复核",
           "scope": "球队伤病名单，非本场官方确认",
           "playerZh": "伊夫·米西",
           "nameNeedsReview": false,
@@ -1287,18 +1175,18 @@
     "NYK": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
           "player": "Josh Hart",
           "id": "",
-          "status": "out",
-          "rawStatus": "Out",
+          "status": "questionable",
+          "rawStatus": "Day-To-Day",
           "reason": "Ankle",
           "timeline": "2026-11-10",
           "note": "Hart is out for Saturday's game against the Cavaliers due to right ankle soreness.",
-          "reportedAt": "2026-11-06T21:48Z",
+          "reportedAt": "2026-11-08T16:01Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -1312,18 +1200,18 @@
     "OKC": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
           "player": "Jaylin Williams",
           "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
+          "status": "out",
+          "rawStatus": "Out",
           "reason": "Back",
-          "timeline": "2026-11-07",
-          "note": "Williams (back) has been ruled out for Friday's game against the Grizzlies.",
-          "reportedAt": "2026-11-07T15:04Z",
+          "timeline": "2026-11-10",
+          "note": "Williams (back) has been ruled out for Saturday's game against the Wizards, Brandon Rahbar of DailyThunder.com reports.",
+          "reportedAt": "2026-11-07T19:10Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -1405,9 +1293,26 @@
     "ORL": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
+        {
+          "player": "Desmond Bane",
+          "id": "",
+          "status": "questionable",
+          "rawStatus": "Day-To-Day",
+          "reason": "Illness",
+          "timeline": "2026-11-10",
+          "note": "Bane (illness) has been ruled out for Saturday's game against the Warriors.",
+          "reportedAt": "2026-11-08T16:12Z",
+          "source": "ESPN",
+          "sourceUrl": "https://www.espn.com/nba/injuries",
+          "confidence": "媒体近期报告",
+          "scope": "球队伤病名单，非本场官方确认",
+          "playerZh": "德斯蒙德·贝恩",
+          "nameNeedsReview": false,
+          "reasonZh": "生病"
+        },
         {
           "player": "Jonathan Isaac",
           "id": "",
@@ -1498,18 +1403,35 @@
     "PHI": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
+        {
+          "player": "Joel Embiid",
+          "id": "",
+          "status": "questionable",
+          "rawStatus": "Day-To-Day",
+          "reason": "Foot",
+          "timeline": "2026-11-08",
+          "note": "Embiid (foot) is probable for Sunday's game against the Bulls.",
+          "reportedAt": "2026-11-07T23:12Z",
+          "source": "ESPN",
+          "sourceUrl": "https://www.espn.com/nba/injuries",
+          "confidence": "媒体近期报告",
+          "scope": "球队伤病名单，非本场官方确认",
+          "playerZh": "乔尔·恩比德",
+          "nameNeedsReview": false,
+          "reasonZh": "足部伤势"
+        },
         {
           "player": "Adem Bona",
           "id": "",
           "status": "out",
           "rawStatus": "Out",
           "reason": "Back",
-          "timeline": "2026-11-08",
-          "note": "Bona (neck) is listed as out for Friday's game versus the Cavaliers.",
-          "reportedAt": "2026-11-06T23:10Z",
+          "timeline": "2026-11-10",
+          "note": "Bona (back) is out for Sunday's game in Chicago.",
+          "reportedAt": "2026-11-07T23:07Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -1557,35 +1479,18 @@
     "PHX": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
-        {
-          "player": "Rasheer Fleming",
-          "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
-          "reason": "Ankle",
-          "timeline": "2026-11-07",
-          "note": "Fleming (ankle) is questionable for Saturday's game against the Rockets.",
-          "reportedAt": "2026-11-07T00:20Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "拉希尔・弗莱明",
-          "nameNeedsReview": false,
-          "reasonZh": "脚踝伤势"
-        },
         {
           "player": "Jordan Goodwin",
           "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
+          "status": "out",
+          "rawStatus": "Out",
           "reason": "Calf",
-          "timeline": "2026-11-07",
-          "note": "Goodwin (calf) is doubtful for Saturday's game against the Rockets.",
-          "reportedAt": "2026-11-07T00:20Z",
+          "timeline": "2026-11-09",
+          "note": "Goodwin (calf) is out for Saturday's game against the Rockets.",
+          "reportedAt": "2026-11-08T01:08Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -1616,9 +1521,43 @@
     "POR": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
+        {
+          "player": "Ja Morant",
+          "id": "",
+          "status": "out",
+          "rawStatus": "Out",
+          "reason": "Hamstring",
+          "timeline": "2026-12-01",
+          "note": "Head coach Micah Nori said Morant met with a doctor in Los Angeles, who gave him a positive outlook on his recovery from the hamstring injury. While Nori declined to update Morant's timetable, he added Morant \"may not be out for as long as we thought,\" Trail Blazers Insider Sean Highkin reports.",
+          "reportedAt": "2026-11-08T02:18Z",
+          "source": "ESPN",
+          "sourceUrl": "https://www.espn.com/nba/injuries",
+          "confidence": "媒体近期报告",
+          "scope": "球队伤病名单，非本场官方确认",
+          "playerZh": "贾·莫兰特",
+          "nameNeedsReview": false,
+          "reasonZh": "腿筋伤势"
+        },
+        {
+          "player": "Robert Williams III",
+          "id": "",
+          "status": "out",
+          "rawStatus": "Out",
+          "reason": "Rest",
+          "timeline": "2026-11-10",
+          "note": "Williams (rest) won't play in Saturday's game against the Spurs.",
+          "reportedAt": "2026-11-07T21:12Z",
+          "source": "ESPN",
+          "sourceUrl": "https://www.espn.com/nba/injuries",
+          "confidence": "媒体近期报告",
+          "scope": "球队伤病名单，非本场官方确认",
+          "playerZh": "Robert Williams III",
+          "nameNeedsReview": true,
+          "reasonZh": "轮休"
+        },
         {
           "player": "Vit Krejci",
           "id": "",
@@ -1635,23 +1574,6 @@
           "playerZh": "维特·克雷伊奇",
           "nameNeedsReview": false,
           "reasonZh": "脚踝伤势"
-        },
-        {
-          "player": "Ja Morant",
-          "id": "",
-          "status": "out",
-          "rawStatus": "Out",
-          "reason": "Hamstring",
-          "timeline": "2026-12-01",
-          "note": "Morant has been diagnosed with a Grade 2 left hamstring strain and is expected to miss four weeks, Portland announced Friday.",
-          "reportedAt": "2026-10-30T18:45Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "需复核",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "贾·莫兰特",
-          "nameNeedsReview": false,
-          "reasonZh": "腿筋伤势"
         },
         {
           "player": "Shaedon Sharpe",
@@ -1675,25 +1597,25 @@
     "SAC": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
-          "player": "De'Andre Hunter",
+          "player": "Keegan Murray",
           "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
-          "reason": "Illness",
+          "status": "out",
+          "rawStatus": "Out",
+          "reason": "Ankle",
           "timeline": "2026-11-08",
-          "note": "Hunter (illness) is listed as out for Friday's game against San Antonio.",
-          "reportedAt": "2026-11-07T15:05Z",
+          "note": "Murray (ankle) is questionable for Sunday's game against the Heat.",
+          "reportedAt": "2026-11-08T01:30Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
           "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "德安德烈·亨特",
+          "playerZh": "基根·穆雷",
           "nameNeedsReview": false,
-          "reasonZh": "生病"
+          "reasonZh": "脚踝伤势"
         },
         {
           "player": "Maxime Raynaud",
@@ -1711,23 +1633,6 @@
           "playerZh": "马克西姆·雷诺",
           "nameNeedsReview": false,
           "reasonZh": "膝盖伤势"
-        },
-        {
-          "player": "Keegan Murray",
-          "id": "",
-          "status": "out",
-          "rawStatus": "Out",
-          "reason": "Ankle",
-          "timeline": "2026-11-10",
-          "note": "Murray (ankle) will be re-evaluated in 10-to-14 days, NBA reporter Marc Stein reports.",
-          "reportedAt": "2026-10-26T22:01Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "需复核",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "基根·穆雷",
-          "nameNeedsReview": false,
-          "reasonZh": "脚踝伤势"
         },
         {
           "player": "Ben Simmons",
@@ -1751,8 +1656,8 @@
     "SAS": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
           "player": "Tobias Harris",
@@ -1793,18 +1698,18 @@
     "TOR": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
           "player": "Scottie Barnes",
           "id": "",
-          "status": "out",
-          "rawStatus": "Out",
+          "status": "questionable",
+          "rawStatus": "Day-To-Day",
           "reason": "Groin",
           "timeline": "2026-11-09",
           "note": "Barnes (adductor) is listed as out for Friday's game against Milwaukee, Michael Grange of Sportsnet.ca reports.",
-          "reportedAt": "2026-11-06T23:44Z",
+          "reportedAt": "2026-11-07T17:39Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -1816,12 +1721,12 @@
         {
           "player": "Immanuel Quickley",
           "id": "",
-          "status": "out",
-          "rawStatus": "Out",
+          "status": "questionable",
+          "rawStatus": "Day-To-Day",
           "reason": "Hamstring",
           "timeline": "2026-11-09",
           "note": "Quickley (hamstring) won't play Friday in Milwaukee, Michael Grange of Sportsnet.ca reports.",
-          "reportedAt": "2026-11-06T23:41Z",
+          "reportedAt": "2026-11-07T17:37Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -1869,9 +1774,26 @@
     "UTA": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
+        {
+          "player": "Lauri Markkanen",
+          "id": "",
+          "status": "questionable",
+          "rawStatus": "Day-To-Day",
+          "reason": "Wrist",
+          "timeline": "2026-11-08",
+          "note": "Markkanen is questionable for Sunday's game against the Timberwolves due to a right wrist sprain.",
+          "reportedAt": "2026-11-07T23:14Z",
+          "source": "ESPN",
+          "sourceUrl": "https://www.espn.com/nba/injuries",
+          "confidence": "媒体近期报告",
+          "scope": "球队伤病名单，非本场官方确认",
+          "playerZh": "劳里·马尔卡宁",
+          "nameNeedsReview": false,
+          "reasonZh": "手腕伤势"
+        },
         {
           "player": "Jusuf Nurkic",
           "id": "",
@@ -1905,31 +1827,14 @@
           "playerZh": "小贾伦·杰克逊",
           "nameNeedsReview": false,
           "reasonZh": "膝盖伤势"
-        },
-        {
-          "player": "Trey Alexander",
-          "id": "",
-          "status": "out",
-          "rawStatus": "Out",
-          "reason": "Knee",
-          "timeline": "2026-11-06",
-          "note": "Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise.",
-          "reportedAt": "2026-10-24T23:18Z",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "需复核",
-          "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "特雷·亚历山大",
-          "nameNeedsReview": false,
-          "reasonZh": "膝盖伤势"
         }
       ]
     },
     "WAS": {
       "state": "fresh",
       "source": "ESPN",
-      "fetchedAt": "2026-11-07T16:19:28.321599Z",
-      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "fetchedAt": "2026-11-08T16:16:40.590578Z",
+      "sourceUpdatedAt": "2026-11-08T16:16:38Z",
       "players": [
         {
           "player": "Anthony Davis",
@@ -1937,9 +1842,9 @@
           "status": "questionable",
           "rawStatus": "Day-To-Day",
           "reason": "Ankle",
-          "timeline": "2026-11-07",
-          "note": "Davis (ankle) is listed as out for Friday's game against the Hawks.",
-          "reportedAt": "2026-11-07T15:05Z",
+          "timeline": "2026-11-09",
+          "note": "Davis (ankle) won't play Saturday against the Thunder.",
+          "reportedAt": "2026-11-08T16:00Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
           "confidence": "媒体近期报告",
@@ -1947,6 +1852,23 @@
           "playerZh": "安东尼·戴维斯",
           "nameNeedsReview": false,
           "reasonZh": "脚踝伤势"
+        },
+        {
+          "player": "Deandre Ayton",
+          "id": "",
+          "status": "questionable",
+          "rawStatus": "Day-To-Day",
+          "reason": "Leg",
+          "timeline": "2026-11-09",
+          "note": "Ayton won't return to Saturday's game against the Thunder due to a lower leg injury.",
+          "reportedAt": "2026-11-08T14:55Z",
+          "source": "ESPN",
+          "sourceUrl": "https://www.espn.com/nba/injuries",
+          "confidence": "媒体近期报告",
+          "scope": "球队伤病名单，非本场官方确认",
+          "playerZh": "德安德烈·艾顿",
+          "nameNeedsReview": false,
+          "reasonZh": "腿部伤势"
         },
         {
           "player": "Reece Beekman",
@@ -2018,26 +1940,26 @@
         }
       ]
     },
-    "LAL": {
+    "BOS": {
       "state": "cached",
       "source": "ESPN",
-      "fetchedAt": "2026-11-06T18:21:58.699168Z",
-      "sourceUpdatedAt": "2026-11-06T18:21:57Z",
+      "fetchedAt": "2026-11-07T16:19:28.321599Z",
+      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
       "players": [
         {
-          "player": "Sandro Mamukelashvili",
+          "player": "Devin Carter",
           "id": "",
-          "status": "questionable",
-          "rawStatus": "Day-To-Day",
+          "status": "out",
+          "rawStatus": "Out",
           "reason": "Illness",
           "timeline": "2026-11-06",
-          "note": "Mamukelashvili (illness) is listed as questionable for Friday's game against Portland.",
-          "reportedAt": "2026-11-06T01:03Z",
+          "note": "Carter (illness) practiced with the G League's Maine Celtics on Wednesday.",
+          "reportedAt": "2026-11-04T23:58Z",
           "source": "ESPN",
           "sourceUrl": "https://www.espn.com/nba/injuries",
-          "confidence": "媒体近期报告",
+          "confidence": "需复核",
           "scope": "球队伤病名单，非本场官方确认",
-          "playerZh": "桑德罗·马穆凯拉什维利",
+          "playerZh": "德文·卡特",
           "nameNeedsReview": false,
           "reasonZh": "生病"
         }
@@ -2065,6 +1987,31 @@
           "playerZh": "扬尼斯·阿德托昆博",
           "nameNeedsReview": false,
           "reasonZh": "手腕伤势"
+        }
+      ]
+    },
+    "MIL": {
+      "state": "cached",
+      "source": "ESPN",
+      "fetchedAt": "2026-11-07T16:19:28.321599Z",
+      "sourceUpdatedAt": "2026-11-07T16:19:27Z",
+      "players": [
+        {
+          "player": "Kam Jones",
+          "id": "",
+          "status": "questionable",
+          "rawStatus": "Day-To-Day",
+          "reason": "Ankle",
+          "timeline": "2026-11-06",
+          "note": "Jones (ankle/two-way player) is out for Friday's game against Toronto.",
+          "reportedAt": "2026-11-06T15:08Z",
+          "source": "ESPN",
+          "sourceUrl": "https://www.espn.com/nba/injuries",
+          "confidence": "媒体近期报告",
+          "scope": "球队伤病名单，非本场官方确认",
+          "playerZh": "卡姆·琼斯",
+          "nameNeedsReview": false,
+          "reasonZh": "脚踝伤势"
         }
       ]
     }
