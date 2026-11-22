@@ -1,0 +1,7005 @@
+{
+  "schemaVersion": 1,
+  "model": "healthy-expected-top3-v1.2",
+  "generatedAt": "2026-11-22T07:30:51.356944Z",
+  "date": "2026-11-23",
+  "simulations": 20000,
+  "seed": 20261027,
+  "state": "ready",
+  "games": [
+    {
+      "id": "401910029",
+      "start": "2026-11-22T20:30:00Z",
+      "home": {
+        "code": "ATL",
+        "name": "老鹰"
+      },
+      "away": {
+        "code": "DET",
+        "name": "活塞"
+      },
+      "status": "Scheduled",
+      "venue": "State Farm Arena",
+      "source": "ESPN"
+    },
+    {
+      "id": "401910030",
+      "start": "2026-11-22T23:00:00Z",
+      "home": {
+        "code": "MIA",
+        "name": "热火"
+      },
+      "away": {
+        "code": "OKC",
+        "name": "雷霆"
+      },
+      "status": "Scheduled",
+      "venue": "Kaseya Center",
+      "source": "ESPN"
+    },
+    {
+      "id": "401910031",
+      "start": "2026-11-23T00:00:00Z",
+      "home": {
+        "code": "WAS",
+        "name": "奇才"
+      },
+      "away": {
+        "code": "ORL",
+        "name": "魔术"
+      },
+      "status": "Scheduled",
+      "venue": "Capital One Arena",
+      "source": "ESPN"
+    },
+    {
+      "id": "401910032",
+      "start": "2026-11-23T00:00:00Z",
+      "home": {
+        "code": "CHI",
+        "name": "公牛"
+      },
+      "away": {
+        "code": "DEN",
+        "name": "掘金"
+      },
+      "status": "Scheduled",
+      "venue": "United Center",
+      "source": "ESPN"
+    },
+    {
+      "id": "401910033",
+      "start": "2026-11-23T00:00:00Z",
+      "home": {
+        "code": "UTA",
+        "name": "爵士"
+      },
+      "away": {
+        "code": "DAL",
+        "name": "独行侠"
+      },
+      "status": "Scheduled",
+      "venue": "Delta Center",
+      "source": "ESPN"
+    },
+    {
+      "id": "401910034",
+      "start": "2026-11-23T01:00:00Z",
+      "home": {
+        "code": "NYK",
+        "name": "尼克斯"
+      },
+      "away": {
+        "code": "IND",
+        "name": "步行者"
+      },
+      "status": "Scheduled",
+      "venue": "Madison Square Garden",
+      "source": "ESPN"
+    },
+    {
+      "id": "401910035",
+      "start": "2026-11-23T01:30:00Z",
+      "home": {
+        "code": "GSW",
+        "name": "勇士"
+      },
+      "away": {
+        "code": "BOS",
+        "name": "凯尔特人"
+      },
+      "status": "Scheduled",
+      "venue": "Chase Center",
+      "source": "ESPN"
+    }
+  ],
+  "categories": {
+    "PTS": {
+      "label": "得分",
+      "first": {
+        "id": "6442",
+        "name": "凯里·欧文",
+        "nameOriginal": "Kyrie Irving",
+        "team": "DAL",
+        "teamName": "独行侠",
+        "gameId": "401910033",
+        "position": "G",
+        "status": "unknown",
+        "recommendationEligible": true,
+        "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+        "confirmation": null,
+        "injuryEvidence": "未列伤病不代表确认出场",
+        "playProbability": 0.95,
+        "minutes": 28.545714285714283,
+        "minuteSource": "历史轮换模型估计，未确认首发",
+        "samples": 11,
+        "currentSamples": 11,
+        "confidence": "模型估计，未校准",
+        "reasons": [
+          "历史样本11场，本季11场；近5场向赛季/位置均值收缩",
+          "对手与节奏修正0.99倍；预计出场概率为启发式假设",
+          "背靠背分钟折减3%"
+        ],
+        "expected": 19.11,
+        "p10": 6.0,
+        "p90": 34.0,
+        "leaderShare": 0.080662,
+        "coLeaderProbability": 0.08465,
+        "top3Probability": 0.1918,
+        "expectedMinutes": 29.1,
+        "distribution": {
+          "0": 0.04815,
+          "1": 0.0018,
+          "2": 0.0035,
+          "3": 0.007,
+          "4": 0.01125,
+          "5": 0.0159,
+          "6": 0.02085,
+          "7": 0.02315,
+          "8": 0.03005,
+          "9": 0.0307,
+          "10": 0.0342,
+          "11": 0.03705,
+          "12": 0.03875,
+          "13": 0.0395,
+          "14": 0.04045,
+          "15": 0.0389,
+          "16": 0.0385,
+          "17": 0.03815,
+          "18": 0.0358,
+          "19": 0.0375,
+          "20": 0.0334,
+          "21": 0.0338,
+          "22": 0.0297,
+          "23": 0.02785,
+          "24": 0.0298,
+          "25": 0.0274,
+          "26": 0.02245,
+          "27": 0.0221,
+          "28": 0.0199,
+          "29": 0.01725,
+          "30": 0.01725,
+          "31": 0.01405,
+          "32": 0.01565,
+          "33": 0.01235,
+          "34": 0.01125,
+          "35": 0.01015,
+          "36": 0.0089,
+          "37": 0.0079,
+          "38": 0.00665,
+          "39": 0.00685,
+          "40": 0.0056,
+          "41": 0.0057,
+          "42": 0.0045,
+          "43": 0.0042,
+          "44": 0.00385,
+          "45": 0.0038,
+          "46": 0.0034,
+          "47": 0.00285,
+          "48": 0.0021,
+          "49": 0.0019,
+          "50": 0.00165,
+          "51": 0.00155,
+          "52": 0.00145,
+          "53": 0.0012,
+          "54": 0.0012,
+          "55": 0.0009,
+          "56": 0.0013,
+          "57": 0.00055,
+          "58": 0.0004,
+          "59": 0.00045,
+          "60": 0.00065,
+          "61": 0.00065,
+          "62": 0.0004,
+          "63": 0.0003,
+          "64": 0.0004,
+          "65": 0.00035,
+          "66": 0.0004,
+          "67": 0.0002,
+          "68": 0.00025,
+          "69": 0.0005,
+          "70": 5e-05,
+          "71": 0.0002,
+          "72": 0.0001,
+          "73": 0.00015,
+          "74": 0.0001,
+          "75": 5e-05,
+          "76": 0.0001,
+          "78": 5e-05,
+          "80": 0.0001,
+          "81": 5e-05,
+          "82": 0.0001,
+          "84": 0.0001,
+          "85": 5e-05,
+          "86": 5e-05,
+          "88": 5e-05,
+          "89": 5e-05,
+          "91": 5e-05,
+          "96": 5e-05,
+          "98": 5e-05,
+          "101": 5e-05
+        }
+      },
+      "candidates": [
+        {
+          "id": "6442",
+          "name": "凯里·欧文",
+          "nameOriginal": "Kyrie Irving",
+          "team": "DAL",
+          "teamName": "独行侠",
+          "gameId": "401910033",
+          "position": "G",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 28.545714285714283,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 11,
+          "currentSamples": 11,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本11场，本季11场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正0.99倍；预计出场概率为启发式假设",
+            "背靠背分钟折减3%"
+          ],
+          "expected": 19.11,
+          "p10": 6.0,
+          "p90": 34.0,
+          "leaderShare": 0.080662,
+          "coLeaderProbability": 0.08465,
+          "top3Probability": 0.1918,
+          "expectedMinutes": 29.1,
+          "distribution": {
+            "0": 0.04815,
+            "1": 0.0018,
+            "2": 0.0035,
+            "3": 0.007,
+            "4": 0.01125,
+            "5": 0.0159,
+            "6": 0.02085,
+            "7": 0.02315,
+            "8": 0.03005,
+            "9": 0.0307,
+            "10": 0.0342,
+            "11": 0.03705,
+            "12": 0.03875,
+            "13": 0.0395,
+            "14": 0.04045,
+            "15": 0.0389,
+            "16": 0.0385,
+            "17": 0.03815,
+            "18": 0.0358,
+            "19": 0.0375,
+            "20": 0.0334,
+            "21": 0.0338,
+            "22": 0.0297,
+            "23": 0.02785,
+            "24": 0.0298,
+            "25": 0.0274,
+            "26": 0.02245,
+            "27": 0.0221,
+            "28": 0.0199,
+            "29": 0.01725,
+            "30": 0.01725,
+            "31": 0.01405,
+            "32": 0.01565,
+            "33": 0.01235,
+            "34": 0.01125,
+            "35": 0.01015,
+            "36": 0.0089,
+            "37": 0.0079,
+            "38": 0.00665,
+            "39": 0.00685,
+            "40": 0.0056,
+            "41": 0.0057,
+            "42": 0.0045,
+            "43": 0.0042,
+            "44": 0.00385,
+            "45": 0.0038,
+            "46": 0.0034,
+            "47": 0.00285,
+            "48": 0.0021,
+            "49": 0.0019,
+            "50": 0.00165,
+            "51": 0.00155,
+            "52": 0.00145,
+            "53": 0.0012,
+            "54": 0.0012,
+            "55": 0.0009,
+            "56": 0.0013,
+            "57": 0.00055,
+            "58": 0.0004,
+            "59": 0.00045,
+            "60": 0.00065,
+            "61": 0.00065,
+            "62": 0.0004,
+            "63": 0.0003,
+            "64": 0.0004,
+            "65": 0.00035,
+            "66": 0.0004,
+            "67": 0.0002,
+            "68": 0.00025,
+            "69": 0.0005,
+            "70": 5e-05,
+            "71": 0.0002,
+            "72": 0.0001,
+            "73": 0.00015,
+            "74": 0.0001,
+            "75": 5e-05,
+            "76": 0.0001,
+            "78": 5e-05,
+            "80": 0.0001,
+            "81": 5e-05,
+            "82": 0.0001,
+            "84": 0.0001,
+            "85": 5e-05,
+            "86": 5e-05,
+            "88": 5e-05,
+            "89": 5e-05,
+            "91": 5e-05,
+            "96": 5e-05,
+            "98": 5e-05,
+            "101": 5e-05
+          }
+        },
+        {
+          "id": "4251",
+          "name": "保罗·乔治",
+          "nameOriginal": "Paul George",
+          "team": "BOS",
+          "teamName": "凯尔特人",
+          "gameId": "401910035",
+          "position": "F",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 26.467142857142857,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 19,
+          "currentSamples": 12,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本19场，本季12场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正0.97倍；预计出场概率为启发式假设",
+            "背靠背分钟折减3%"
+          ],
+          "expected": 16.72,
+          "p10": 4.0,
+          "p90": 32.0,
+          "leaderShare": 0.067743,
+          "coLeaderProbability": 0.07115,
+          "top3Probability": 0.1511,
+          "expectedMinutes": 28.0,
+          "distribution": {
+            "0": 0.0531,
+            "1": 0.00795,
+            "2": 0.0147,
+            "3": 0.01925,
+            "4": 0.0268,
+            "5": 0.02895,
+            "6": 0.03405,
+            "7": 0.0374,
+            "8": 0.03855,
+            "9": 0.0393,
+            "10": 0.04195,
+            "11": 0.0371,
+            "12": 0.03955,
+            "13": 0.0393,
+            "14": 0.0381,
+            "15": 0.03715,
+            "16": 0.0349,
+            "17": 0.0335,
+            "18": 0.03235,
+            "19": 0.0294,
+            "20": 0.02925,
+            "21": 0.02605,
+            "22": 0.0245,
+            "23": 0.02085,
+            "24": 0.021,
+            "25": 0.0196,
+            "26": 0.01755,
+            "27": 0.01645,
+            "28": 0.0152,
+            "29": 0.01365,
+            "30": 0.0124,
+            "31": 0.0121,
+            "32": 0.00985,
+            "33": 0.00855,
+            "34": 0.00825,
+            "35": 0.0075,
+            "36": 0.00695,
+            "37": 0.0066,
+            "38": 0.00575,
+            "39": 0.0054,
+            "40": 0.00515,
+            "41": 0.005,
+            "42": 0.00355,
+            "43": 0.00405,
+            "44": 0.0035,
+            "45": 0.00255,
+            "46": 0.0023,
+            "47": 0.00245,
+            "48": 0.0015,
+            "49": 0.00225,
+            "50": 0.0016,
+            "51": 0.00175,
+            "52": 0.00095,
+            "53": 0.00125,
+            "54": 0.00145,
+            "55": 0.00075,
+            "56": 0.00105,
+            "57": 0.0012,
+            "58": 0.0009,
+            "59": 0.0006,
+            "60": 0.00075,
+            "61": 0.0004,
+            "62": 0.0004,
+            "63": 0.0004,
+            "64": 0.00045,
+            "65": 0.0002,
+            "66": 0.0003,
+            "67": 0.0002,
+            "68": 0.0001,
+            "69": 0.00015,
+            "70": 0.00025,
+            "71": 0.00015,
+            "72": 5e-05,
+            "73": 0.0002,
+            "74": 0.0001,
+            "75": 0.0002,
+            "76": 0.0002,
+            "77": 5e-05,
+            "78": 0.0001,
+            "80": 5e-05,
+            "81": 5e-05,
+            "82": 5e-05,
+            "83": 5e-05,
+            "84": 0.0001,
+            "86": 5e-05,
+            "87": 5e-05,
+            "89": 5e-05,
+            "90": 0.0001,
+            "91": 0.0001,
+            "92": 5e-05,
+            "95": 5e-05
+          }
+        },
+        {
+          "id": "3934672",
+          "name": "杰伦·布伦森",
+          "nameOriginal": "Jalen Brunson",
+          "team": "NYK",
+          "teamName": "尼克斯",
+          "gameId": "401910034",
+          "position": "G",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 30.762857142857143,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 18,
+          "currentSamples": 14,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本18场，本季14场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正0.99倍；预计出场概率为启发式假设",
+            "背靠背分钟折减3%"
+          ],
+          "expected": 21.5,
+          "p10": 12.0,
+          "p90": 32.0,
+          "leaderShare": 0.055975,
+          "coLeaderProbability": 0.06165,
+          "top3Probability": 0.203,
+          "expectedMinutes": 28.4,
+          "distribution": {
+            "0": 0.0489,
+            "2": 5e-05,
+            "3": 5e-05,
+            "4": 0.0005,
+            "5": 0.00045,
+            "6": 0.0011,
+            "7": 0.00155,
+            "8": 0.0035,
+            "9": 0.0056,
+            "10": 0.00815,
+            "11": 0.01355,
+            "12": 0.0188,
+            "13": 0.02425,
+            "14": 0.0305,
+            "15": 0.0359,
+            "16": 0.04255,
+            "17": 0.04635,
+            "18": 0.0528,
+            "19": 0.0569,
+            "20": 0.05555,
+            "21": 0.0565,
+            "22": 0.05045,
+            "23": 0.05295,
+            "24": 0.05225,
+            "25": 0.0467,
+            "26": 0.041,
+            "27": 0.03775,
+            "28": 0.03085,
+            "29": 0.03115,
+            "30": 0.0248,
+            "31": 0.0221,
+            "32": 0.0201,
+            "33": 0.0154,
+            "34": 0.0133,
+            "35": 0.0106,
+            "36": 0.00975,
+            "37": 0.0081,
+            "38": 0.0063,
+            "39": 0.0051,
+            "40": 0.0045,
+            "41": 0.0028,
+            "42": 0.00235,
+            "43": 0.00125,
+            "44": 0.00205,
+            "45": 0.00125,
+            "46": 0.0012,
+            "47": 0.00045,
+            "48": 0.0006,
+            "49": 0.0002,
+            "50": 0.0003,
+            "51": 0.00015,
+            "52": 0.00025,
+            "53": 0.00015,
+            "54": 0.00015,
+            "55": 5e-05,
+            "56": 0.00015
+          }
+        }
+      ],
+      "probabilities": {
+        "4278073": {
+          "leaderShare": 0.141295,
+          "coLeader": 0.14885
+        },
+        "6442": {
+          "leaderShare": 0.080662,
+          "coLeader": 0.08465
+        },
+        "4432166": {
+          "leaderShare": 0.071425,
+          "coLeader": 0.07425
+        },
+        "4251": {
+          "leaderShare": 0.067743,
+          "coLeader": 0.07115
+        },
+        "3934672": {
+          "leaderShare": 0.055975,
+          "coLeader": 0.06165
+        },
+        "5041939": {
+          "leaderShare": 0.05206,
+          "coLeader": 0.05615
+        },
+        "4066261": {
+          "leaderShare": 0.045679,
+          "coLeader": 0.04785
+        },
+        "5105839": {
+          "leaderShare": 0.039098,
+          "coLeader": 0.0413
+        },
+        "6583": {
+          "leaderShare": 0.035853,
+          "coLeader": 0.0394
+        },
+        "4277905": {
+          "leaderShare": 0.031818,
+          "coLeader": 0.0336
+        },
+        "5175737": {
+          "leaderShare": 0.030832,
+          "coLeader": 0.03315
+        },
+        "4566434": {
+          "leaderShare": 0.024643,
+          "coLeader": 0.02725
+        },
+        "3112335": {
+          "leaderShare": 0.023103,
+          "coLeader": 0.02635
+        },
+        "3936299": {
+          "leaderShare": 0.02061,
+          "coLeader": 0.0227
+        },
+        "4222252": {
+          "leaderShare": 0.019171,
+          "coLeader": 0.02085
+        },
+        "4433627": {
+          "leaderShare": 0.017318,
+          "coLeader": 0.01925
+        },
+        "5160992": {
+          "leaderShare": 0.017042,
+          "coLeader": 0.01805
+        },
+        "4278039": {
+          "leaderShare": 0.012242,
+          "coLeader": 0.01405
+        },
+        "5107199": {
+          "leaderShare": 0.011638,
+          "coLeader": 0.01335
+        },
+        "4701230": {
+          "leaderShare": 0.01155,
+          "coLeader": 0.01335
+        },
+        "4683778": {
+          "leaderShare": 0.011292,
+          "coLeader": 0.01275
+        },
+        "5241364": {
+          "leaderShare": 0.010396,
+          "coLeader": 0.01115
+        },
+        "5211175": {
+          "leaderShare": 0.010083,
+          "coLeader": 0.0108
+        },
+        "4711294": {
+          "leaderShare": 0.008613,
+          "coLeader": 0.00965
+        },
+        "2595516": {
+          "leaderShare": 0.008583,
+          "coLeader": 0.0095
+        },
+        "4277919": {
+          "leaderShare": 0.007375,
+          "coLeader": 0.00785
+        },
+        "4900671": {
+          "leaderShare": 0.006704,
+          "coLeader": 0.00765
+        },
+        "3032977": {
+          "leaderShare": 0.006485,
+          "coLeader": 0.00735
+        },
+        "5142718": {
+          "leaderShare": 0.006387,
+          "coLeader": 0.00725
+        },
+        "3914044": {
+          "leaderShare": 0.0063,
+          "coLeader": 0.00695
+        },
+        "5174983": {
+          "leaderShare": 0.0061,
+          "coLeader": 0.007
+        },
+        "4017837": {
+          "leaderShare": 0.005975,
+          "coLeader": 0.00665
+        },
+        "4396909": {
+          "leaderShare": 0.005825,
+          "coLeader": 0.0064
+        },
+        "3149673": {
+          "leaderShare": 0.004821,
+          "coLeader": 0.0057
+        },
+        "3136195": {
+          "leaderShare": 0.004729,
+          "coLeader": 0.0052
+        },
+        "3908845": {
+          "leaderShare": 0.0046,
+          "coLeader": 0.0053
+        },
+        "4871145": {
+          "leaderShare": 0.004329,
+          "coLeader": 0.0049
+        },
+        "4066372": {
+          "leaderShare": 0.004029,
+          "coLeader": 0.00465
+        },
+        "6475": {
+          "leaderShare": 0.003583,
+          "coLeader": 0.00415
+        },
+        "5041955": {
+          "leaderShare": 0.003392,
+          "coLeader": 0.00375
+        },
+        "4873138": {
+          "leaderShare": 0.003306,
+          "coLeader": 0.0039
+        },
+        "2596112": {
+          "leaderShare": 0.003042,
+          "coLeader": 0.0034
+        },
+        "4431680": {
+          "leaderShare": 0.003,
+          "coLeader": 0.00355
+        },
+        "4712849": {
+          "leaderShare": 0.002692,
+          "coLeader": 0.00305
+        },
+        "3195": {
+          "leaderShare": 0.002687,
+          "coLeader": 0.00305
+        },
+        "4592829": {
+          "leaderShare": 0.002271,
+          "coLeader": 0.00265
+        },
+        "4066354": {
+          "leaderShare": 0.002146,
+          "coLeader": 0.00245
+        },
+        "4896372": {
+          "leaderShare": 0.002117,
+          "coLeader": 0.00235
+        },
+        "4397020": {
+          "leaderShare": 0.00205,
+          "coLeader": 0.00215
+        },
+        "4066320": {
+          "leaderShare": 0.001967,
+          "coLeader": 0.00245
+        },
+        "5238230": {
+          "leaderShare": 0.001958,
+          "coLeader": 0.00225
+        },
+        "3138196": {
+          "leaderShare": 0.001942,
+          "coLeader": 0.0023
+        },
+        "4397424": {
+          "leaderShare": 0.001833,
+          "coLeader": 0.00215
+        },
+        "3978": {
+          "leaderShare": 0.001725,
+          "coLeader": 0.0019
+        },
+        "3138160": {
+          "leaderShare": 0.001542,
+          "coLeader": 0.0018
+        },
+        "4593841": {
+          "leaderShare": 0.001325,
+          "coLeader": 0.00135
+        },
+        "4709138": {
+          "leaderShare": 0.001318,
+          "coLeader": 0.0015
+        },
+        "4683766": {
+          "leaderShare": 0.001292,
+          "coLeader": 0.00145
+        },
+        "4278067": {
+          "leaderShare": 0.001221,
+          "coLeader": 0.00145
+        },
+        "4278572": {
+          "leaderShare": 0.001075,
+          "coLeader": 0.0012
+        },
+        "4395626": {
+          "leaderShare": 0.000933,
+          "coLeader": 0.0011
+        },
+        "4431752": {
+          "leaderShare": 0.000917,
+          "coLeader": 0.001
+        },
+        "4898010": {
+          "leaderShare": 0.000883,
+          "coLeader": 0.00105
+        },
+        "4565698": {
+          "leaderShare": 0.000875,
+          "coLeader": 0.00095
+        },
+        "4432165": {
+          "leaderShare": 0.00085,
+          "coLeader": 0.0011
+        },
+        "6478": {
+          "leaderShare": 0.000825,
+          "coLeader": 0.00085
+        },
+        "4431687": {
+          "leaderShare": 0.000775,
+          "coLeader": 0.00085
+        },
+        "3147657": {
+          "leaderShare": 0.00075,
+          "coLeader": 0.0008
+        },
+        "4397183": {
+          "leaderShare": 0.000717,
+          "coLeader": 0.0009
+        },
+        "3934719": {
+          "leaderShare": 0.000679,
+          "coLeader": 0.00085
+        },
+        "4395702": {
+          "leaderShare": 0.00065,
+          "coLeader": 0.00095
+        },
+        "5174563": {
+          "leaderShare": 0.000625,
+          "coLeader": 0.00085
+        },
+        "5107157": {
+          "leaderShare": 0.000625,
+          "coLeader": 0.0007
+        },
+        "4278355": {
+          "leaderShare": 0.000617,
+          "coLeader": 0.0007
+        },
+        "4278053": {
+          "leaderShare": 0.000504,
+          "coLeader": 0.0007
+        },
+        "4593125": {
+          "leaderShare": 0.000492,
+          "coLeader": 0.0006
+        },
+        "3133603": {
+          "leaderShare": 0.000487,
+          "coLeader": 0.0007
+        },
+        "4395712": {
+          "leaderShare": 0.000467,
+          "coLeader": 0.0006
+        },
+        "2990984": {
+          "leaderShare": 0.00045,
+          "coLeader": 0.00055
+        },
+        "4432582": {
+          "leaderShare": 0.000425,
+          "coLeader": 0.00045
+        },
+        "4897262": {
+          "leaderShare": 0.000417,
+          "coLeader": 0.00045
+        },
+        "4702745": {
+          "leaderShare": 0.000417,
+          "coLeader": 0.00045
+        },
+        "4433149": {
+          "leaderShare": 0.00041,
+          "coLeader": 0.00055
+        },
+        "4278562": {
+          "leaderShare": 0.0004,
+          "coLeader": 0.00045
+        },
+        "3133602": {
+          "leaderShare": 0.0004,
+          "coLeader": 0.0004
+        },
+        "4431714": {
+          "leaderShare": 0.000392,
+          "coLeader": 0.00055
+        },
+        "4684742": {
+          "leaderShare": 0.000379,
+          "coLeader": 0.0005
+        },
+        "3133626": {
+          "leaderShare": 0.0003,
+          "coLeader": 0.00035
+        },
+        "5144126": {
+          "leaderShare": 0.0003,
+          "coLeader": 0.00035
+        },
+        "5105854": {
+          "leaderShare": 0.000287,
+          "coLeader": 0.00035
+        },
+        "4683689": {
+          "leaderShare": 0.000275,
+          "coLeader": 0.00035
+        },
+        "4431772": {
+          "leaderShare": 0.0002,
+          "coLeader": 0.0002
+        },
+        "3062679": {
+          "leaderShare": 0.000175,
+          "coLeader": 0.00025
+        },
+        "4397251": {
+          "leaderShare": 0.00015,
+          "coLeader": 0.00015
+        },
+        "2528210": {
+          "leaderShare": 0.00015,
+          "coLeader": 0.00015
+        },
+        "4845374": {
+          "leaderShare": 0.00015,
+          "coLeader": 0.00015
+        },
+        "5175647": {
+          "leaderShare": 0.000133,
+          "coLeader": 0.0002
+        },
+        "4397189": {
+          "leaderShare": 0.000125,
+          "coLeader": 0.00015
+        },
+        "4065731": {
+          "leaderShare": 0.000125,
+          "coLeader": 0.00015
+        },
+        "4700852": {
+          "leaderShare": 0.0001,
+          "coLeader": 0.0001
+        },
+        "4897943": {
+          "leaderShare": 0.0001,
+          "coLeader": 0.00015
+        },
+        "4684793": {
+          "leaderShare": 0.0001,
+          "coLeader": 0.0001
+        },
+        "4397886": {
+          "leaderShare": 8.5e-05,
+          "coLeader": 0.00015
+        },
+        "4431767": {
+          "leaderShare": 7.5e-05,
+          "coLeader": 0.0001
+        },
+        "4278594": {
+          "leaderShare": 7.5e-05,
+          "coLeader": 0.0001
+        },
+        "4601025": {
+          "leaderShare": 7.5e-05,
+          "coLeader": 0.0001
+        },
+        "4397077": {
+          "leaderShare": 7.5e-05,
+          "coLeader": 0.0001
+        },
+        "4997536": {
+          "leaderShare": 7.5e-05,
+          "coLeader": 0.0001
+        },
+        "5211983": {
+          "leaderShare": 7.5e-05,
+          "coLeader": 0.0001
+        },
+        "4702382": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "3064290": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4065804": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "3064482": {
+          "leaderShare": 5e-05,
+          "coLeader": 0.0001
+        },
+        "5104155": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "2990969": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4431941": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "3899664": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4683736": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "5105592": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4277847": {
+          "leaderShare": 2.5e-05,
+          "coLeader": 5e-05
+        },
+        "4066436": {
+          "leaderShare": 2.5e-05,
+          "coLeader": 5e-05
+        },
+        "4432822": {
+          "leaderShare": 1.7e-05,
+          "coLeader": 5e-05
+        },
+        "3059319": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4869342": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4280151": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4278049": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4702384": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4348700": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4873153": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5239561": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4277951": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4277848": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4592427": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683750": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105800": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5142621": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4066650": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433188": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5106262": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5242496": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "6609": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4698719": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4431823": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432185": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433225": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432811": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3133635": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3134903": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065663": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5289900": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5106060": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397449": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4593034": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5044385": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4703396": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3213": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4398207": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433618": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4848625": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2580365": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105841": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432107": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4997528": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5106283": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4431786": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "6585": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397882": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432808": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "6589": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4277869": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4684208": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065673": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432819": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105806": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065813": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683730": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3135046": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433607": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4278129": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2581184": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4837356": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4066993": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2578185": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397204": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4701208": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4897449": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5107818": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4431690": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4700818": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2528426": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433629": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4684443": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4838721": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4593049": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4278076": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4684682": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5037878": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2490149": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2530530": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2990962": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2991350": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3078576": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3102530": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3102531": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3146557": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3157465": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3975": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065648": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065654": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4066336": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4277961": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4278078": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4351852": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4396993": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397040": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432171": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432181": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432187": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432573": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432823": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432907": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433076": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433255": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433621": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4593803": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4606840": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683688": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683692": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683771": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4712863": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4873201": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4997537": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5061603": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5095151": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105555": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105571": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5106040": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5107251": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5148538": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5149077": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5157066": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5159925": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5214637": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5258459": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5279129": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "6430": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        }
+      }
+    },
+    "REB": {
+      "label": "篮板",
+      "first": {
+        "id": "4222252",
+        "name": "以赛亚·哈尔滕施泰因",
+        "nameOriginal": "Isaiah Hartenstein",
+        "team": "OKC",
+        "teamName": "雷霆",
+        "gameId": "401910030",
+        "position": "C",
+        "status": "unknown",
+        "recommendationEligible": true,
+        "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+        "confirmation": null,
+        "injuryEvidence": "未列伤病不代表确认出场",
+        "playProbability": 0.95,
+        "minutes": 25.285714285714285,
+        "minuteSource": "历史轮换模型估计，未确认首发",
+        "samples": 18,
+        "currentSamples": 14,
+        "confidence": "模型估计，未校准",
+        "reasons": [
+          "历史样本18场，本季14场；近5场向赛季/位置均值收缩",
+          "对手与节奏修正1.03倍；预计出场概率为启发式假设",
+          "非背靠背/样本未检测到背靠背"
+        ],
+        "expected": 11.91,
+        "p10": 6.0,
+        "p90": 19.0,
+        "leaderShare": 0.211414,
+        "coLeaderProbability": 0.2377,
+        "top3Probability": 0.4864,
+        "expectedMinutes": 27.6,
+        "distribution": {
+          "0": 0.04815,
+          "1": 0.00045,
+          "2": 0.0017,
+          "3": 0.00555,
+          "4": 0.0131,
+          "5": 0.02045,
+          "6": 0.0326,
+          "7": 0.05105,
+          "8": 0.0622,
+          "9": 0.0767,
+          "10": 0.0824,
+          "11": 0.08385,
+          "12": 0.0818,
+          "13": 0.07955,
+          "14": 0.06995,
+          "15": 0.0614,
+          "16": 0.05085,
+          "17": 0.04305,
+          "18": 0.03375,
+          "19": 0.0262,
+          "20": 0.02165,
+          "21": 0.01525,
+          "22": 0.01085,
+          "23": 0.0086,
+          "24": 0.00595,
+          "25": 0.00375,
+          "26": 0.003,
+          "27": 0.0023,
+          "28": 0.0016,
+          "29": 0.0007,
+          "30": 0.00055,
+          "31": 0.00015,
+          "32": 0.00035,
+          "33": 0.0002,
+          "34": 0.00015,
+          "35": 0.0001,
+          "38": 0.0001
+        }
+      },
+      "candidates": [
+        {
+          "id": "4222252",
+          "name": "以赛亚·哈尔滕施泰因",
+          "nameOriginal": "Isaiah Hartenstein",
+          "team": "OKC",
+          "teamName": "雷霆",
+          "gameId": "401910030",
+          "position": "C",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 25.285714285714285,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 18,
+          "currentSamples": 14,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本18场，本季14场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正1.03倍；预计出场概率为启发式假设",
+            "非背靠背/样本未检测到背靠背"
+          ],
+          "expected": 11.91,
+          "p10": 6.0,
+          "p90": 19.0,
+          "leaderShare": 0.211414,
+          "coLeaderProbability": 0.2377,
+          "top3Probability": 0.4864,
+          "expectedMinutes": 27.6,
+          "distribution": {
+            "0": 0.04815,
+            "1": 0.00045,
+            "2": 0.0017,
+            "3": 0.00555,
+            "4": 0.0131,
+            "5": 0.02045,
+            "6": 0.0326,
+            "7": 0.05105,
+            "8": 0.0622,
+            "9": 0.0767,
+            "10": 0.0824,
+            "11": 0.08385,
+            "12": 0.0818,
+            "13": 0.07955,
+            "14": 0.06995,
+            "15": 0.0614,
+            "16": 0.05085,
+            "17": 0.04305,
+            "18": 0.03375,
+            "19": 0.0262,
+            "20": 0.02165,
+            "21": 0.01525,
+            "22": 0.01085,
+            "23": 0.0086,
+            "24": 0.00595,
+            "25": 0.00375,
+            "26": 0.003,
+            "27": 0.0023,
+            "28": 0.0016,
+            "29": 0.0007,
+            "30": 0.00055,
+            "31": 0.00015,
+            "32": 0.00035,
+            "33": 0.0002,
+            "34": 0.00015,
+            "35": 0.0001,
+            "38": 0.0001
+          }
+        },
+        {
+          "id": "5174983",
+          "name": "阿代·马拉",
+          "nameOriginal": "Aday Mara",
+          "team": "OKC",
+          "teamName": "雷霆",
+          "gameId": "401910030",
+          "position": "C",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 25.0,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 14,
+          "currentSamples": 14,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本14场，本季14场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正1.03倍；预计出场概率为启发式假设",
+            "非背靠背/样本未检测到背靠背"
+          ],
+          "expected": 8.96,
+          "p10": 2.0,
+          "p90": 17.0,
+          "leaderShare": 0.123047,
+          "coLeaderProbability": 0.13605,
+          "top3Probability": 0.26445,
+          "expectedMinutes": 27.4,
+          "distribution": {
+            "0": 0.0567,
+            "1": 0.02355,
+            "2": 0.03915,
+            "3": 0.0597,
+            "4": 0.0699,
+            "5": 0.0726,
+            "6": 0.07495,
+            "7": 0.0707,
+            "8": 0.0711,
+            "9": 0.06505,
+            "10": 0.05765,
+            "11": 0.05065,
+            "12": 0.04735,
+            "13": 0.0403,
+            "14": 0.03205,
+            "15": 0.02925,
+            "16": 0.02555,
+            "17": 0.01995,
+            "18": 0.0176,
+            "19": 0.0151,
+            "20": 0.0124,
+            "21": 0.0089,
+            "22": 0.00715,
+            "23": 0.00675,
+            "24": 0.00475,
+            "25": 0.00385,
+            "26": 0.00355,
+            "27": 0.0035,
+            "28": 0.00205,
+            "29": 0.00175,
+            "30": 0.00105,
+            "31": 0.00125,
+            "32": 0.00105,
+            "33": 0.0006,
+            "34": 0.0006,
+            "35": 0.00025,
+            "36": 0.00045,
+            "38": 0.0002,
+            "39": 0.00015,
+            "40": 0.00025,
+            "41": 5e-05,
+            "42": 0.0001,
+            "43": 0.00015,
+            "44": 5e-05,
+            "45": 5e-05,
+            "46": 0.0001,
+            "50": 5e-05,
+            "54": 5e-05,
+            "55": 5e-05
+          }
+        },
+        {
+          "id": "4397886",
+          "name": "查尔斯·巴锡",
+          "nameOriginal": "Charles Bassey",
+          "team": "GSW",
+          "teamName": "勇士",
+          "gameId": "401910035",
+          "position": "C",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 19.428571428571427,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 19,
+          "currentSamples": 13,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本19场，本季13场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正0.91倍；预计出场概率为启发式假设",
+            "非背靠背/样本未检测到背靠背"
+          ],
+          "expected": 6.62,
+          "p10": 1.0,
+          "p90": 13.0,
+          "leaderShare": 0.042872,
+          "coLeaderProbability": 0.0492,
+          "top3Probability": 0.1225,
+          "expectedMinutes": 18.9,
+          "distribution": {
+            "0": 0.06415,
+            "1": 0.0482,
+            "2": 0.0719,
+            "3": 0.09035,
+            "4": 0.09785,
+            "5": 0.0937,
+            "6": 0.0896,
+            "7": 0.0814,
+            "8": 0.07215,
+            "9": 0.06095,
+            "10": 0.04985,
+            "11": 0.039,
+            "12": 0.0328,
+            "13": 0.0256,
+            "14": 0.02135,
+            "15": 0.01315,
+            "16": 0.0123,
+            "17": 0.00855,
+            "18": 0.0067,
+            "19": 0.00515,
+            "20": 0.00335,
+            "21": 0.00285,
+            "22": 0.0023,
+            "23": 0.00175,
+            "24": 0.00115,
+            "25": 0.00095,
+            "26": 0.00055,
+            "27": 0.00065,
+            "28": 0.0005,
+            "29": 0.0002,
+            "30": 0.0002,
+            "31": 0.0003,
+            "32": 0.00015,
+            "33": 0.00015,
+            "34": 0.0001,
+            "35": 5e-05,
+            "39": 0.0001
+          }
+        }
+      ],
+      "probabilities": {
+        "4222252": {
+          "leaderShare": 0.211414,
+          "coLeader": 0.2377
+        },
+        "5174983": {
+          "leaderShare": 0.123047,
+          "coLeader": 0.13605
+        },
+        "3136195": {
+          "leaderShare": 0.08056,
+          "coLeader": 0.0929
+        },
+        "4397886": {
+          "leaderShare": 0.042872,
+          "coLeader": 0.0492
+        },
+        "4277919": {
+          "leaderShare": 0.042502,
+          "coLeader": 0.04885
+        },
+        "3112335": {
+          "leaderShare": 0.041099,
+          "coLeader": 0.05075
+        },
+        "4017837": {
+          "leaderShare": 0.03802,
+          "coLeader": 0.04465
+        },
+        "4701230": {
+          "leaderShare": 0.032723,
+          "coLeader": 0.0405
+        },
+        "4066261": {
+          "leaderShare": 0.030323,
+          "coLeader": 0.0353
+        },
+        "4397424": {
+          "leaderShare": 0.030154,
+          "coLeader": 0.0376
+        },
+        "6583": {
+          "leaderShare": 0.030147,
+          "coLeader": 0.0364
+        },
+        "6585": {
+          "leaderShare": 0.029689,
+          "coLeader": 0.03585
+        },
+        "4684742": {
+          "leaderShare": 0.027234,
+          "coLeader": 0.03395
+        },
+        "4431680": {
+          "leaderShare": 0.02184,
+          "coLeader": 0.02835
+        },
+        "4278562": {
+          "leaderShare": 0.021601,
+          "coLeader": 0.0274
+        },
+        "3032977": {
+          "leaderShare": 0.019127,
+          "coLeader": 0.02385
+        },
+        "4397077": {
+          "leaderShare": 0.018652,
+          "coLeader": 0.02195
+        },
+        "4869342": {
+          "leaderShare": 0.016416,
+          "coLeader": 0.02075
+        },
+        "4871145": {
+          "leaderShare": 0.011945,
+          "coLeader": 0.0141
+        },
+        "4065804": {
+          "leaderShare": 0.007188,
+          "coLeader": 0.00855
+        },
+        "4277847": {
+          "leaderShare": 0.006643,
+          "coLeader": 0.0088
+        },
+        "5160992": {
+          "leaderShare": 0.006237,
+          "coLeader": 0.0081
+        },
+        "5175737": {
+          "leaderShare": 0.005537,
+          "coLeader": 0.00725
+        },
+        "4278049": {
+          "leaderShare": 0.005483,
+          "coLeader": 0.0068
+        },
+        "4396909": {
+          "leaderShare": 0.005464,
+          "coLeader": 0.0067
+        },
+        "4397189": {
+          "leaderShare": 0.005463,
+          "coLeader": 0.00715
+        },
+        "3133626": {
+          "leaderShare": 0.00489,
+          "coLeader": 0.00635
+        },
+        "2596112": {
+          "leaderShare": 0.004579,
+          "coLeader": 0.00535
+        },
+        "4278572": {
+          "leaderShare": 0.004527,
+          "coLeader": 0.00555
+        },
+        "5041939": {
+          "leaderShare": 0.004116,
+          "coLeader": 0.00565
+        },
+        "5105839": {
+          "leaderShare": 0.003899,
+          "coLeader": 0.00505
+        },
+        "4432808": {
+          "leaderShare": 0.003516,
+          "coLeader": 0.0042
+        },
+        "3908845": {
+          "leaderShare": 0.003377,
+          "coLeader": 0.0044
+        },
+        "4873153": {
+          "leaderShare": 0.003082,
+          "coLeader": 0.00375
+        },
+        "4278067": {
+          "leaderShare": 0.003074,
+          "coLeader": 0.004
+        },
+        "4348700": {
+          "leaderShare": 0.002784,
+          "coLeader": 0.00385
+        },
+        "5142718": {
+          "leaderShare": 0.002694,
+          "coLeader": 0.0038
+        },
+        "4566434": {
+          "leaderShare": 0.002495,
+          "coLeader": 0.00335
+        },
+        "5041955": {
+          "leaderShare": 0.002339,
+          "coLeader": 0.0031
+        },
+        "4251": {
+          "leaderShare": 0.002116,
+          "coLeader": 0.0032
+        },
+        "4593841": {
+          "leaderShare": 0.002081,
+          "coLeader": 0.00275
+        },
+        "4873138": {
+          "leaderShare": 0.001797,
+          "coLeader": 0.0026
+        },
+        "3899664": {
+          "leaderShare": 0.001729,
+          "coLeader": 0.00195
+        },
+        "4431714": {
+          "leaderShare": 0.001675,
+          "coLeader": 0.0021
+        },
+        "6442": {
+          "leaderShare": 0.001597,
+          "coLeader": 0.0023
+        },
+        "5107818": {
+          "leaderShare": 0.001548,
+          "coLeader": 0.00195
+        },
+        "3134903": {
+          "leaderShare": 0.001542,
+          "coLeader": 0.00175
+        },
+        "4431772": {
+          "leaderShare": 0.001525,
+          "coLeader": 0.00175
+        },
+        "5211175": {
+          "leaderShare": 0.001508,
+          "coLeader": 0.0022
+        },
+        "4066372": {
+          "leaderShare": 0.001375,
+          "coLeader": 0.0018
+        },
+        "4897943": {
+          "leaderShare": 0.001333,
+          "coLeader": 0.00175
+        },
+        "4684793": {
+          "leaderShare": 0.0012,
+          "coLeader": 0.00145
+        },
+        "6589": {
+          "leaderShare": 0.00111,
+          "coLeader": 0.00175
+        },
+        "3064290": {
+          "leaderShare": 0.001103,
+          "coLeader": 0.00145
+        },
+        "4711294": {
+          "leaderShare": 0.001022,
+          "coLeader": 0.00155
+        },
+        "3138160": {
+          "leaderShare": 0.000918,
+          "coLeader": 0.00135
+        },
+        "3934672": {
+          "leaderShare": 0.000913,
+          "coLeader": 0.00115
+        },
+        "5044385": {
+          "leaderShare": 0.0009,
+          "coLeader": 0.00115
+        },
+        "4593034": {
+          "leaderShare": 0.000892,
+          "coLeader": 0.0011
+        },
+        "3133602": {
+          "leaderShare": 0.000868,
+          "coLeader": 0.0012
+        },
+        "4431752": {
+          "leaderShare": 0.000788,
+          "coLeader": 0.001
+        },
+        "3934719": {
+          "leaderShare": 0.000708,
+          "coLeader": 0.0009
+        },
+        "4433225": {
+          "leaderShare": 0.000592,
+          "coLeader": 0.00065
+        },
+        "5107199": {
+          "leaderShare": 0.000524,
+          "coLeader": 0.0007
+        },
+        "6478": {
+          "leaderShare": 0.000502,
+          "coLeader": 0.00065
+        },
+        "4432166": {
+          "leaderShare": 0.000483,
+          "coLeader": 0.0007
+        },
+        "4277951": {
+          "leaderShare": 0.000471,
+          "coLeader": 0.00065
+        },
+        "5142621": {
+          "leaderShare": 0.000421,
+          "coLeader": 0.00065
+        },
+        "3062679": {
+          "leaderShare": 0.000417,
+          "coLeader": 0.0006
+        },
+        "4702745": {
+          "leaderShare": 0.000417,
+          "coLeader": 0.0007
+        },
+        "4702384": {
+          "leaderShare": 0.000392,
+          "coLeader": 0.0005
+        },
+        "4065673": {
+          "leaderShare": 0.000389,
+          "coLeader": 0.00055
+        },
+        "5174563": {
+          "leaderShare": 0.000371,
+          "coLeader": 0.00055
+        },
+        "5289900": {
+          "leaderShare": 0.000362,
+          "coLeader": 0.0005
+        },
+        "4702382": {
+          "leaderShare": 0.00035,
+          "coLeader": 0.0007
+        },
+        "4066354": {
+          "leaderShare": 0.000333,
+          "coLeader": 0.0005
+        },
+        "4997536": {
+          "leaderShare": 0.000325,
+          "coLeader": 0.0005
+        },
+        "3149673": {
+          "leaderShare": 0.000308,
+          "coLeader": 0.00045
+        },
+        "5106262": {
+          "leaderShare": 0.0003,
+          "coLeader": 0.0004
+        },
+        "4712849": {
+          "leaderShare": 0.000293,
+          "coLeader": 0.00065
+        },
+        "4277848": {
+          "leaderShare": 0.000267,
+          "coLeader": 0.00035
+        },
+        "3195": {
+          "leaderShare": 0.000267,
+          "coLeader": 0.0004
+        },
+        "3133603": {
+          "leaderShare": 0.00025,
+          "coLeader": 0.00025
+        },
+        "4701208": {
+          "leaderShare": 0.000242,
+          "coLeader": 0.0003
+        },
+        "4278073": {
+          "leaderShare": 0.000225,
+          "coLeader": 0.00025
+        },
+        "4432165": {
+          "leaderShare": 0.00022,
+          "coLeader": 0.0004
+        },
+        "3064482": {
+          "leaderShare": 0.000217,
+          "coLeader": 0.00035
+        },
+        "4709138": {
+          "leaderShare": 0.000208,
+          "coLeader": 0.0003
+        },
+        "5175647": {
+          "leaderShare": 0.000202,
+          "coLeader": 0.0003
+        },
+        "3213": {
+          "leaderShare": 0.000192,
+          "coLeader": 0.00025
+        },
+        "4601025": {
+          "leaderShare": 0.000175,
+          "coLeader": 0.0002
+        },
+        "5105854": {
+          "leaderShare": 0.000175,
+          "coLeader": 0.0002
+        },
+        "5037878": {
+          "leaderShare": 0.000175,
+          "coLeader": 0.0003
+        },
+        "4593049": {
+          "leaderShare": 0.000167,
+          "coLeader": 0.0002
+        },
+        "4278355": {
+          "leaderShare": 0.000154,
+          "coLeader": 0.00025
+        },
+        "4278039": {
+          "leaderShare": 0.000143,
+          "coLeader": 0.00025
+        },
+        "4432822": {
+          "leaderShare": 0.000142,
+          "coLeader": 0.0003
+        },
+        "4278594": {
+          "leaderShare": 0.000129,
+          "coLeader": 0.00025
+        },
+        "4683778": {
+          "leaderShare": 0.000117,
+          "coLeader": 0.0002
+        },
+        "4703396": {
+          "leaderShare": 0.000117,
+          "coLeader": 0.0002
+        },
+        "4592829": {
+          "leaderShare": 0.000112,
+          "coLeader": 0.00015
+        },
+        "4900671": {
+          "leaderShare": 0.0001,
+          "coLeader": 0.00015
+        },
+        "4698719": {
+          "leaderShare": 0.0001,
+          "coLeader": 0.0002
+        },
+        "4065663": {
+          "leaderShare": 0.0001,
+          "coLeader": 0.0001
+        },
+        "4684208": {
+          "leaderShare": 0.0001,
+          "coLeader": 0.0001
+        },
+        "4432185": {
+          "leaderShare": 9.9e-05,
+          "coLeader": 0.0002
+        },
+        "4593125": {
+          "leaderShare": 9.2e-05,
+          "coLeader": 0.00015
+        },
+        "4066320": {
+          "leaderShare": 8.7e-05,
+          "coLeader": 0.00015
+        },
+        "4066436": {
+          "leaderShare": 8.5e-05,
+          "coLeader": 0.00015
+        },
+        "5104155": {
+          "leaderShare": 7.5e-05,
+          "coLeader": 0.0001
+        },
+        "4431767": {
+          "leaderShare": 6.8e-05,
+          "coLeader": 0.00015
+        },
+        "4397183": {
+          "leaderShare": 6.7e-05,
+          "coLeader": 0.0001
+        },
+        "4066650": {
+          "leaderShare": 6.7e-05,
+          "coLeader": 0.0001
+        },
+        "4397204": {
+          "leaderShare": 6.7e-05,
+          "coLeader": 0.0001
+        },
+        "5106060": {
+          "leaderShare": 6.3e-05,
+          "coLeader": 0.0001
+        },
+        "4433627": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "5242496": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4278129": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4397020": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4700818": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4278076": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4066993": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4398207": {
+          "leaderShare": 4.2e-05,
+          "coLeader": 0.0001
+        },
+        "3147657": {
+          "leaderShare": 3.7e-05,
+          "coLeader": 0.0001
+        },
+        "3138196": {
+          "leaderShare": 3.5e-05,
+          "coLeader": 0.0001
+        },
+        "4433188": {
+          "leaderShare": 2.5e-05,
+          "coLeader": 5e-05
+        },
+        "4397882": {
+          "leaderShare": 2.5e-05,
+          "coLeader": 5e-05
+        },
+        "5106283": {
+          "leaderShare": 2.5e-05,
+          "coLeader": 5e-05
+        },
+        "4684682": {
+          "leaderShare": 2.5e-05,
+          "coLeader": 5e-05
+        },
+        "4431687": {
+          "leaderShare": 2.5e-05,
+          "coLeader": 5e-05
+        },
+        "5107157": {
+          "leaderShare": 1.7e-05,
+          "coLeader": 5e-05
+        },
+        "4065731": {
+          "leaderShare": 1.7e-05,
+          "coLeader": 5e-05
+        },
+        "4683689": {
+          "leaderShare": 1.7e-05,
+          "coLeader": 5e-05
+        },
+        "4683750": {
+          "leaderShare": 1.7e-05,
+          "coLeader": 5e-05
+        },
+        "3936299": {
+          "leaderShare": 1.3e-05,
+          "coLeader": 5e-05
+        },
+        "2580365": {
+          "leaderShare": 1.3e-05,
+          "coLeader": 5e-05
+        },
+        "2990984": {
+          "leaderShare": 6e-06,
+          "coLeader": 5e-05
+        },
+        "4896372": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4897262": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2990969": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4592427": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3059319": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4278053": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4395712": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683766": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4280151": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4277905": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4431941": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432582": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4997528": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105800": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4565698": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4897449": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4395626": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "6609": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4431786": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5239561": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105841": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433618": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5241364": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5238230": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3978": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4395702": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433607": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3914044": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432811": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065813": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105592": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2578185": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4700852": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683736": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5211983": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3133635": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4848625": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397449": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "6475": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433149": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432107": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2581184": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2595516": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3135046": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4277869": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397251": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4431690": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4684443": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5144126": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2528210": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4898010": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4431823": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4838721": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683730": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433629": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2528426": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105806": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4837356": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432819": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4845374": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2490149": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2530530": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2990962": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2991350": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3078576": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3102530": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3102531": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3146557": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3157465": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3975": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065648": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065654": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4066336": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4277961": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4278078": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4351852": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4396993": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397040": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432171": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432181": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432187": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432573": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432823": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432907": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433076": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433255": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433621": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4593803": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4606840": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683688": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683692": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683771": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4712863": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4873201": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4997537": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5061603": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5095151": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105555": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105571": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5106040": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5107251": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5148538": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5149077": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5157066": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5159925": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5214637": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5258459": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5279129": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "6430": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        }
+      }
+    },
+    "AST": {
+      "label": "助攻",
+      "first": {
+        "id": "3112335",
+        "name": "尼古拉·约基奇",
+        "nameOriginal": "Nikola Jokic",
+        "team": "DEN",
+        "teamName": "掘金",
+        "gameId": "401910032",
+        "position": "C",
+        "status": "unknown",
+        "recommendationEligible": true,
+        "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+        "confirmation": null,
+        "injuryEvidence": "未列伤病不代表确认出场",
+        "playProbability": 0.95,
+        "minutes": 32.714285714285715,
+        "minuteSource": "历史轮换模型估计，未确认首发",
+        "samples": 17,
+        "currentSamples": 12,
+        "confidence": "模型估计，未校准",
+        "reasons": [
+          "历史样本17场，本季12场；近5场向赛季/位置均值收缩",
+          "对手与节奏修正1.04倍；预计出场概率为启发式假设",
+          "非背靠背/样本未检测到背靠背"
+        ],
+        "expected": 7.0,
+        "p10": 3.0,
+        "p90": 11.0,
+        "leaderShare": 0.100271,
+        "coLeaderProbability": 0.12365,
+        "top3Probability": 0.3173,
+        "expectedMinutes": 27.9,
+        "distribution": {
+          "0": 0.052,
+          "1": 0.0079,
+          "2": 0.02605,
+          "3": 0.053,
+          "4": 0.0838,
+          "5": 0.1064,
+          "6": 0.12455,
+          "7": 0.11985,
+          "8": 0.1144,
+          "9": 0.09365,
+          "10": 0.0718,
+          "11": 0.0519,
+          "12": 0.0334,
+          "13": 0.02485,
+          "14": 0.01505,
+          "15": 0.0095,
+          "16": 0.00515,
+          "17": 0.0029,
+          "18": 0.002,
+          "19": 0.00095,
+          "20": 0.00045,
+          "21": 0.00025,
+          "22": 0.00015,
+          "23": 5e-05
+        }
+      },
+      "candidates": [
+        {
+          "id": "3112335",
+          "name": "尼古拉·约基奇",
+          "nameOriginal": "Nikola Jokic",
+          "team": "DEN",
+          "teamName": "掘金",
+          "gameId": "401910032",
+          "position": "C",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 32.714285714285715,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 17,
+          "currentSamples": 12,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本17场，本季12场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正1.04倍；预计出场概率为启发式假设",
+            "非背靠背/样本未检测到背靠背"
+          ],
+          "expected": 7.0,
+          "p10": 3.0,
+          "p90": 11.0,
+          "leaderShare": 0.100271,
+          "coLeaderProbability": 0.12365,
+          "top3Probability": 0.3173,
+          "expectedMinutes": 27.9,
+          "distribution": {
+            "0": 0.052,
+            "1": 0.0079,
+            "2": 0.02605,
+            "3": 0.053,
+            "4": 0.0838,
+            "5": 0.1064,
+            "6": 0.12455,
+            "7": 0.11985,
+            "8": 0.1144,
+            "9": 0.09365,
+            "10": 0.0718,
+            "11": 0.0519,
+            "12": 0.0334,
+            "13": 0.02485,
+            "14": 0.01505,
+            "15": 0.0095,
+            "16": 0.00515,
+            "17": 0.0029,
+            "18": 0.002,
+            "19": 0.00095,
+            "20": 0.00045,
+            "21": 0.00025,
+            "22": 0.00015,
+            "23": 5e-05
+          }
+        },
+        {
+          "id": "4684742",
+          "name": "奥萨尔·汤普森",
+          "nameOriginal": "Ausar Thompson",
+          "team": "DET",
+          "teamName": "活塞",
+          "gameId": "401910029",
+          "position": "G",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 28.142857142857142,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 18,
+          "currentSamples": 12,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本18场，本季12场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正1.01倍；预计出场概率为启发式假设",
+            "非背靠背/样本未检测到背靠背"
+          ],
+          "expected": 5.56,
+          "p10": 1.0,
+          "p90": 11.0,
+          "leaderShare": 0.092335,
+          "coLeaderProbability": 0.10685,
+          "top3Probability": 0.20925,
+          "expectedMinutes": 29.0,
+          "distribution": {
+            "0": 0.08955,
+            "1": 0.07795,
+            "2": 0.0962,
+            "3": 0.1088,
+            "4": 0.1052,
+            "5": 0.09695,
+            "6": 0.0855,
+            "7": 0.07,
+            "8": 0.0591,
+            "9": 0.0463,
+            "10": 0.03635,
+            "11": 0.0302,
+            "12": 0.0243,
+            "13": 0.0177,
+            "14": 0.01465,
+            "15": 0.01025,
+            "16": 0.00855,
+            "17": 0.00545,
+            "18": 0.0045,
+            "19": 0.00295,
+            "20": 0.0025,
+            "21": 0.00195,
+            "22": 0.00145,
+            "23": 0.001,
+            "24": 0.00075,
+            "25": 0.0003,
+            "26": 0.0006,
+            "27": 0.00015,
+            "28": 0.0002,
+            "29": 5e-05,
+            "30": 5e-05,
+            "31": 0.0002,
+            "32": 5e-05,
+            "33": 5e-05,
+            "34": 0.0001,
+            "39": 5e-05,
+            "41": 5e-05,
+            "42": 5e-05
+          }
+        },
+        {
+          "id": "4278053",
+          "name": "戴维恩·米切尔",
+          "nameOriginal": "Davion Mitchell",
+          "team": "MIA",
+          "teamName": "热火",
+          "gameId": "401910030",
+          "position": "G",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 31.142857142857142,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 17,
+          "currentSamples": 12,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本17场，本季12场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正0.99倍；预计出场概率为启发式假设",
+            "非背靠背/样本未检测到背靠背"
+          ],
+          "expected": 6.22,
+          "p10": 2.0,
+          "p90": 11.0,
+          "leaderShare": 0.090109,
+          "coLeaderProbability": 0.10725,
+          "top3Probability": 0.24585,
+          "expectedMinutes": 26.3,
+          "distribution": {
+            "0": 0.0611,
+            "1": 0.0314,
+            "2": 0.06345,
+            "3": 0.08895,
+            "4": 0.1088,
+            "5": 0.1109,
+            "6": 0.10995,
+            "7": 0.0994,
+            "8": 0.07925,
+            "9": 0.064,
+            "10": 0.0551,
+            "11": 0.0385,
+            "12": 0.02655,
+            "13": 0.02005,
+            "14": 0.01295,
+            "15": 0.01,
+            "16": 0.0065,
+            "17": 0.0049,
+            "18": 0.00295,
+            "19": 0.0018,
+            "20": 0.00085,
+            "21": 0.001,
+            "22": 0.00045,
+            "23": 0.0006,
+            "24": 5e-05,
+            "25": 0.0004,
+            "26": 5e-05,
+            "27": 0.0001
+          }
+        }
+      ],
+      "probabilities": {
+        "3112335": {
+          "leaderShare": 0.100271,
+          "coLeader": 0.12365
+        },
+        "4684742": {
+          "leaderShare": 0.092335,
+          "coLeader": 0.10685
+        },
+        "4278053": {
+          "leaderShare": 0.090109,
+          "coLeader": 0.10725
+        },
+        "4566434": {
+          "leaderShare": 0.083648,
+          "coLeader": 0.099
+        },
+        "4871145": {
+          "leaderShare": 0.078699,
+          "coLeader": 0.09585
+        },
+        "4277905": {
+          "leaderShare": 0.059742,
+          "coLeader": 0.07425
+        },
+        "5107199": {
+          "leaderShare": 0.059048,
+          "coLeader": 0.0701
+        },
+        "4432166": {
+          "leaderShare": 0.049337,
+          "coLeader": 0.06205
+        },
+        "4395712": {
+          "leaderShare": 0.041993,
+          "coLeader": 0.054
+        },
+        "4066372": {
+          "leaderShare": 0.029801,
+          "coLeader": 0.03605
+        },
+        "4701230": {
+          "leaderShare": 0.028306,
+          "coLeader": 0.03635
+        },
+        "3934672": {
+          "leaderShare": 0.02706,
+          "coLeader": 0.03645
+        },
+        "4433627": {
+          "leaderShare": 0.022123,
+          "coLeader": 0.03075
+        },
+        "4066354": {
+          "leaderShare": 0.02198,
+          "coLeader": 0.02825
+        },
+        "4869342": {
+          "leaderShare": 0.019631,
+          "coLeader": 0.027
+        },
+        "3936299": {
+          "leaderShare": 0.019149,
+          "coLeader": 0.02595
+        },
+        "5041939": {
+          "leaderShare": 0.014642,
+          "coLeader": 0.02075
+        },
+        "4712849": {
+          "leaderShare": 0.013337,
+          "coLeader": 0.01845
+        },
+        "5174983": {
+          "leaderShare": 0.013147,
+          "coLeader": 0.01635
+        },
+        "4278073": {
+          "leaderShare": 0.012177,
+          "coLeader": 0.0168
+        },
+        "4900671": {
+          "leaderShare": 0.012101,
+          "coLeader": 0.01665
+        },
+        "4222252": {
+          "leaderShare": 0.010953,
+          "coLeader": 0.01505
+        },
+        "6589": {
+          "leaderShare": 0.010217,
+          "coLeader": 0.01475
+        },
+        "4433225": {
+          "leaderShare": 0.009513,
+          "coLeader": 0.01235
+        },
+        "5175737": {
+          "leaderShare": 0.006872,
+          "coLeader": 0.0091
+        },
+        "4251": {
+          "leaderShare": 0.006183,
+          "coLeader": 0.0084
+        },
+        "4592829": {
+          "leaderShare": 0.00506,
+          "coLeader": 0.0068
+        },
+        "6442": {
+          "leaderShare": 0.004854,
+          "coLeader": 0.00705
+        },
+        "4395626": {
+          "leaderShare": 0.004389,
+          "coLeader": 0.00665
+        },
+        "3032977": {
+          "leaderShare": 0.00421,
+          "coLeader": 0.0058
+        },
+        "4896372": {
+          "leaderShare": 0.004198,
+          "coLeader": 0.0062
+        },
+        "4396909": {
+          "leaderShare": 0.003666,
+          "coLeader": 0.0051
+        },
+        "4432165": {
+          "leaderShare": 0.003614,
+          "coLeader": 0.0052
+        },
+        "5041955": {
+          "leaderShare": 0.003197,
+          "coLeader": 0.00445
+        },
+        "4277951": {
+          "leaderShare": 0.002506,
+          "coLeader": 0.00335
+        },
+        "3213": {
+          "leaderShare": 0.00225,
+          "coLeader": 0.00315
+        },
+        "3136195": {
+          "leaderShare": 0.002209,
+          "coLeader": 0.0032
+        },
+        "4397449": {
+          "leaderShare": 0.001657,
+          "coLeader": 0.00235
+        },
+        "4997536": {
+          "leaderShare": 0.001654,
+          "coLeader": 0.0022
+        },
+        "5174563": {
+          "leaderShare": 0.001395,
+          "coLeader": 0.00205
+        },
+        "5105854": {
+          "leaderShare": 0.001168,
+          "coLeader": 0.0019
+        },
+        "4433149": {
+          "leaderShare": 0.001135,
+          "coLeader": 0.00165
+        },
+        "3138196": {
+          "leaderShare": 0.001063,
+          "coLeader": 0.0016
+        },
+        "3133602": {
+          "leaderShare": 0.001056,
+          "coLeader": 0.0014
+        },
+        "4709138": {
+          "leaderShare": 0.00092,
+          "coLeader": 0.0015
+        },
+        "4431714": {
+          "leaderShare": 0.000911,
+          "coLeader": 0.00155
+        },
+        "4066650": {
+          "leaderShare": 0.000892,
+          "coLeader": 0.0013
+        },
+        "3062679": {
+          "leaderShare": 0.000779,
+          "coLeader": 0.00125
+        },
+        "4601025": {
+          "leaderShare": 0.000771,
+          "coLeader": 0.00105
+        },
+        "4683766": {
+          "leaderShare": 0.000672,
+          "coLeader": 0.0009
+        },
+        "4684208": {
+          "leaderShare": 0.000667,
+          "coLeader": 0.00095
+        },
+        "3133626": {
+          "leaderShare": 0.000637,
+          "coLeader": 0.0011
+        },
+        "4277919": {
+          "leaderShare": 0.00061,
+          "coLeader": 0.00075
+        },
+        "5289900": {
+          "leaderShare": 0.000596,
+          "coLeader": 0.00095
+        },
+        "4066436": {
+          "leaderShare": 0.000479,
+          "coLeader": 0.00075
+        },
+        "4397183": {
+          "leaderShare": 0.000472,
+          "coLeader": 0.00075
+        },
+        "4278594": {
+          "leaderShare": 0.000462,
+          "coLeader": 0.00075
+        },
+        "4432822": {
+          "leaderShare": 0.000458,
+          "coLeader": 0.0007
+        },
+        "4278039": {
+          "leaderShare": 0.000456,
+          "coLeader": 0.0007
+        },
+        "4683736": {
+          "leaderShare": 0.000442,
+          "coLeader": 0.0006
+        },
+        "4066320": {
+          "leaderShare": 0.000392,
+          "coLeader": 0.0007
+        },
+        "4845374": {
+          "leaderShare": 0.000379,
+          "coLeader": 0.0005
+        },
+        "5142718": {
+          "leaderShare": 0.000371,
+          "coLeader": 0.0007
+        },
+        "3138160": {
+          "leaderShare": 0.000368,
+          "coLeader": 0.00065
+        },
+        "4873153": {
+          "leaderShare": 0.000358,
+          "coLeader": 0.0005
+        },
+        "6583": {
+          "leaderShare": 0.000342,
+          "coLeader": 0.00075
+        },
+        "2595516": {
+          "leaderShare": 0.000325,
+          "coLeader": 0.00045
+        },
+        "4683778": {
+          "leaderShare": 0.000288,
+          "coLeader": 0.0007
+        },
+        "2990984": {
+          "leaderShare": 0.000262,
+          "coLeader": 0.00035
+        },
+        "3978": {
+          "leaderShare": 0.000253,
+          "coLeader": 0.0004
+        },
+        "3149673": {
+          "leaderShare": 0.000253,
+          "coLeader": 0.0006
+        },
+        "4066261": {
+          "leaderShare": 0.000252,
+          "coLeader": 0.00045
+        },
+        "4278562": {
+          "leaderShare": 0.000245,
+          "coLeader": 0.0005
+        },
+        "5239561": {
+          "leaderShare": 0.000237,
+          "coLeader": 0.00035
+        },
+        "4433188": {
+          "leaderShare": 0.000229,
+          "coLeader": 0.00035
+        },
+        "4431767": {
+          "leaderShare": 0.000225,
+          "coLeader": 0.0004
+        },
+        "4702745": {
+          "leaderShare": 0.000225,
+          "coLeader": 0.0003
+        },
+        "6475": {
+          "leaderShare": 0.000217,
+          "coLeader": 0.0003
+        },
+        "4065663": {
+          "leaderShare": 0.000212,
+          "coLeader": 0.00025
+        },
+        "3147657": {
+          "leaderShare": 0.00021,
+          "coLeader": 0.0004
+        },
+        "5241364": {
+          "leaderShare": 0.000195,
+          "coLeader": 0.00035
+        },
+        "4397424": {
+          "leaderShare": 0.000179,
+          "coLeader": 0.0003
+        },
+        "3135046": {
+          "leaderShare": 0.000158,
+          "coLeader": 0.00025
+        },
+        "4017837": {
+          "leaderShare": 0.000158,
+          "coLeader": 0.00025
+        },
+        "4431941": {
+          "leaderShare": 0.000158,
+          "coLeader": 0.00025
+        },
+        "4397189": {
+          "leaderShare": 0.000125,
+          "coLeader": 0.0002
+        },
+        "3914044": {
+          "leaderShare": 0.0001,
+          "coLeader": 0.0001
+        },
+        "4997528": {
+          "leaderShare": 9.2e-05,
+          "coLeader": 0.00015
+        },
+        "4277869": {
+          "leaderShare": 8.7e-05,
+          "coLeader": 0.00015
+        },
+        "5107157": {
+          "leaderShare": 8.5e-05,
+          "coLeader": 0.00015
+        },
+        "5105839": {
+          "leaderShare": 7.5e-05,
+          "coLeader": 0.0001
+        },
+        "4702384": {
+          "leaderShare": 7.5e-05,
+          "coLeader": 0.0001
+        },
+        "4593841": {
+          "leaderShare": 7.2e-05,
+          "coLeader": 0.00015
+        },
+        "4433629": {
+          "leaderShare": 6.3e-05,
+          "coLeader": 0.00015
+        },
+        "4898010": {
+          "leaderShare": 5.4e-05,
+          "coLeader": 0.00015
+        },
+        "5105800": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4873138": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "5238230": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4432107": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4397882": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4278067": {
+          "leaderShare": 4.2e-05,
+          "coLeader": 0.0001
+        },
+        "2990969": {
+          "leaderShare": 4.2e-05,
+          "coLeader": 0.0001
+        },
+        "3133635": {
+          "leaderShare": 3.7e-05,
+          "coLeader": 0.0001
+        },
+        "4702382": {
+          "leaderShare": 3.7e-05,
+          "coLeader": 0.0001
+        },
+        "4278049": {
+          "leaderShare": 3.7e-05,
+          "coLeader": 0.0001
+        },
+        "4278355": {
+          "leaderShare": 3.7e-05,
+          "coLeader": 0.0001
+        },
+        "6609": {
+          "leaderShare": 3.3e-05,
+          "coLeader": 0.0001
+        },
+        "4711294": {
+          "leaderShare": 2.5e-05,
+          "coLeader": 5e-05
+        },
+        "4348700": {
+          "leaderShare": 2.5e-05,
+          "coLeader": 5e-05
+        },
+        "4703396": {
+          "leaderShare": 2.5e-05,
+          "coLeader": 5e-05
+        },
+        "3899664": {
+          "leaderShare": 2.5e-05,
+          "coLeader": 5e-05
+        },
+        "6585": {
+          "leaderShare": 2.5e-05,
+          "coLeader": 5e-05
+        },
+        "3064290": {
+          "leaderShare": 1.7e-05,
+          "coLeader": 5e-05
+        },
+        "4431752": {
+          "leaderShare": 1.7e-05,
+          "coLeader": 5e-05
+        },
+        "4848625": {
+          "leaderShare": 1.7e-05,
+          "coLeader": 5e-05
+        },
+        "4066993": {
+          "leaderShare": 1.7e-05,
+          "coLeader": 5e-05
+        },
+        "4683689": {
+          "leaderShare": 1.7e-05,
+          "coLeader": 5e-05
+        },
+        "4432808": {
+          "leaderShare": 1.7e-05,
+          "coLeader": 5e-05
+        },
+        "4431690": {
+          "leaderShare": 1.7e-05,
+          "coLeader": 5e-05
+        },
+        "5044385": {
+          "leaderShare": 1.3e-05,
+          "coLeader": 5e-05
+        },
+        "3934719": {
+          "leaderShare": 1.3e-05,
+          "coLeader": 5e-05
+        },
+        "4395702": {
+          "leaderShare": 8e-06,
+          "coLeader": 5e-05
+        },
+        "4280151": {
+          "leaderShare": 8e-06,
+          "coLeader": 5e-05
+        },
+        "4431680": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4897262": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3059319": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065804": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3195": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5160992": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3064482": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4593034": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "6478": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4277847": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397020": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5106060": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4398207": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397251": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4592427": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683750": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4700852": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3133603": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5211175": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397077": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5106262": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5175647": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432819": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5104155": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3134903": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432811": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4431823": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683730": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432185": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2596112": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3908845": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397886": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432582": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4593125": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2528210": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4837356": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5242496": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5106283": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5142621": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065731": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4431687": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105806": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105841": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433618": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4897943": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105592": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4431772": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4684793": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5144126": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065813": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433607": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4897449": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4278572": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397204": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4565698": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065673": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4431786": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2580365": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5107818": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5211983": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2578185": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4698719": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4278129": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4277848": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4700818": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2581184": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2528426": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4593049": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4701208": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4684443": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4838721": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4278076": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4684682": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5037878": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2490149": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2530530": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2990962": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2991350": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3078576": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3102530": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3102531": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3146557": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3157465": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3975": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065648": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065654": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4066336": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4277961": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4278078": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4351852": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4396993": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397040": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432171": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432181": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432187": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432573": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432823": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432907": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433076": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433255": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433621": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4593803": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4606840": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683688": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683692": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683771": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4712863": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4873201": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4997537": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5061603": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5095151": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105555": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105571": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5106040": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5107251": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5148538": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5149077": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5157066": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5159925": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5214637": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5258459": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5279129": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "6430": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        }
+      }
+    },
+    "BLK": {
+      "label": "盖帽",
+      "first": {
+        "id": "5174983",
+        "name": "阿代·马拉",
+        "nameOriginal": "Aday Mara",
+        "team": "OKC",
+        "teamName": "雷霆",
+        "gameId": "401910030",
+        "position": "C",
+        "status": "unknown",
+        "recommendationEligible": true,
+        "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+        "confirmation": null,
+        "injuryEvidence": "未列伤病不代表确认出场",
+        "playProbability": 0.95,
+        "minutes": 25.0,
+        "minuteSource": "历史轮换模型估计，未确认首发",
+        "samples": 14,
+        "currentSamples": 14,
+        "confidence": "模型估计，未校准",
+        "reasons": [
+          "历史样本14场，本季14场；近5场向赛季/位置均值收缩",
+          "对手与节奏修正1.03倍；预计出场概率为启发式假设",
+          "非背靠背/样本未检测到背靠背"
+        ],
+        "expected": 1.73,
+        "p10": 0.0,
+        "p90": 4.0,
+        "leaderShare": 0.091896,
+        "coLeaderProbability": 0.14795,
+        "top3Probability": 0.31165,
+        "expectedMinutes": 27.4,
+        "distribution": {
+          "0": 0.2233,
+          "1": 0.277,
+          "2": 0.2364,
+          "3": 0.14645,
+          "4": 0.06865,
+          "5": 0.0304,
+          "6": 0.01245,
+          "7": 0.0039,
+          "8": 0.00125,
+          "9": 0.0002
+        }
+      },
+      "candidates": [
+        {
+          "id": "5174983",
+          "name": "阿代·马拉",
+          "nameOriginal": "Aday Mara",
+          "team": "OKC",
+          "teamName": "雷霆",
+          "gameId": "401910030",
+          "position": "C",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 25.0,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 14,
+          "currentSamples": 14,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本14场，本季14场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正1.03倍；预计出场概率为启发式假设",
+            "非背靠背/样本未检测到背靠背"
+          ],
+          "expected": 1.73,
+          "p10": 0.0,
+          "p90": 4.0,
+          "leaderShare": 0.091896,
+          "coLeaderProbability": 0.14795,
+          "top3Probability": 0.31165,
+          "expectedMinutes": 27.4,
+          "distribution": {
+            "0": 0.2233,
+            "1": 0.277,
+            "2": 0.2364,
+            "3": 0.14645,
+            "4": 0.06865,
+            "5": 0.0304,
+            "6": 0.01245,
+            "7": 0.0039,
+            "8": 0.00125,
+            "9": 0.0002
+          }
+        },
+        {
+          "id": "4397424",
+          "name": "内米亚斯·奎塔",
+          "nameOriginal": "Neemias Queta",
+          "team": "BOS",
+          "teamName": "凯尔特人",
+          "gameId": "401910035",
+          "position": "C",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 22.864285714285714,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 19,
+          "currentSamples": 13,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本19场，本季13场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正0.97倍；预计出场概率为启发式假设",
+            "背靠背分钟折减3%"
+          ],
+          "expected": 1.31,
+          "p10": 0.0,
+          "p90": 3.0,
+          "leaderShare": 0.053764,
+          "coLeaderProbability": 0.08915,
+          "top3Probability": 0.2044,
+          "expectedMinutes": 24.2,
+          "distribution": {
+            "0": 0.3327,
+            "1": 0.29695,
+            "2": 0.20315,
+            "3": 0.09865,
+            "4": 0.042,
+            "5": 0.01685,
+            "6": 0.00625,
+            "7": 0.00245,
+            "8": 0.0008,
+            "9": 0.00015,
+            "10": 5e-05
+          }
+        },
+        {
+          "id": "4278049",
+          "name": "丹尼尔·加福德",
+          "nameOriginal": "Daniel Gafford",
+          "team": "DAL",
+          "teamName": "独行侠",
+          "gameId": "401910033",
+          "position": "F",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 20.37,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 15,
+          "currentSamples": 13,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本15场，本季13场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正0.99倍；预计出场概率为启发式假设",
+            "背靠背分钟折减3%"
+          ],
+          "expected": 1.3,
+          "p10": 0.0,
+          "p90": 3.0,
+          "leaderShare": 0.047064,
+          "coLeaderProbability": 0.08295,
+          "top3Probability": 0.2024,
+          "expectedMinutes": 20.8,
+          "distribution": {
+            "0": 0.31575,
+            "1": 0.31395,
+            "2": 0.20755,
+            "3": 0.1038,
+            "4": 0.0388,
+            "5": 0.01415,
+            "6": 0.0046,
+            "7": 0.00085,
+            "8": 0.00045,
+            "9": 5e-05,
+            "10": 5e-05
+          }
+        }
+      ],
+      "probabilities": {
+        "5174983": {
+          "leaderShare": 0.091896,
+          "coLeader": 0.14795
+        },
+        "4397424": {
+          "leaderShare": 0.053764,
+          "coLeader": 0.08915
+        },
+        "4278049": {
+          "leaderShare": 0.047064,
+          "coLeader": 0.08295
+        },
+        "4277919": {
+          "leaderShare": 0.041778,
+          "coLeader": 0.0762
+        },
+        "4684742": {
+          "leaderShare": 0.03918,
+          "coLeader": 0.06165
+        },
+        "5160992": {
+          "leaderShare": 0.036827,
+          "coLeader": 0.06505
+        },
+        "4066372": {
+          "leaderShare": 0.035236,
+          "coLeader": 0.05745
+        },
+        "4278562": {
+          "leaderShare": 0.029108,
+          "coLeader": 0.0536
+        },
+        "4017837": {
+          "leaderShare": 0.027621,
+          "coLeader": 0.05115
+        },
+        "3213": {
+          "leaderShare": 0.024321,
+          "coLeader": 0.04145
+        },
+        "3133603": {
+          "leaderShare": 0.019534,
+          "coLeader": 0.03725
+        },
+        "4397886": {
+          "leaderShare": 0.019096,
+          "coLeader": 0.03775
+        },
+        "4431680": {
+          "leaderShare": 0.019088,
+          "coLeader": 0.03715
+        },
+        "3908845": {
+          "leaderShare": 0.01677,
+          "coLeader": 0.0318
+        },
+        "5104155": {
+          "leaderShare": 0.016426,
+          "coLeader": 0.03265
+        },
+        "6583": {
+          "leaderShare": 0.014685,
+          "coLeader": 0.0301
+        },
+        "4065731": {
+          "leaderShare": 0.014255,
+          "coLeader": 0.0276
+        },
+        "5174563": {
+          "leaderShare": 0.01396,
+          "coLeader": 0.02845
+        },
+        "3032977": {
+          "leaderShare": 0.013663,
+          "coLeader": 0.0235
+        },
+        "4432808": {
+          "leaderShare": 0.013076,
+          "coLeader": 0.02335
+        },
+        "3059319": {
+          "leaderShare": 0.012338,
+          "coLeader": 0.02375
+        },
+        "4066261": {
+          "leaderShare": 0.011829,
+          "coLeader": 0.02185
+        },
+        "4397189": {
+          "leaderShare": 0.011659,
+          "coLeader": 0.0194
+        },
+        "4711294": {
+          "leaderShare": 0.011045,
+          "coLeader": 0.0213
+        },
+        "6475": {
+          "leaderShare": 0.010883,
+          "coLeader": 0.0235
+        },
+        "4222252": {
+          "leaderShare": 0.010707,
+          "coLeader": 0.02195
+        },
+        "4278067": {
+          "leaderShare": 0.010362,
+          "coLeader": 0.02175
+        },
+        "3936299": {
+          "leaderShare": 0.009394,
+          "coLeader": 0.01985
+        },
+        "5175737": {
+          "leaderShare": 0.008756,
+          "coLeader": 0.01945
+        },
+        "3112335": {
+          "leaderShare": 0.008677,
+          "coLeader": 0.01925
+        },
+        "5211175": {
+          "leaderShare": 0.008548,
+          "coLeader": 0.01825
+        },
+        "4871145": {
+          "leaderShare": 0.008492,
+          "coLeader": 0.0165
+        },
+        "6589": {
+          "leaderShare": 0.008225,
+          "coLeader": 0.0172
+        },
+        "4397077": {
+          "leaderShare": 0.008131,
+          "coLeader": 0.01715
+        },
+        "4277951": {
+          "leaderShare": 0.008074,
+          "coLeader": 0.01585
+        },
+        "6585": {
+          "leaderShare": 0.007688,
+          "coLeader": 0.0149
+        },
+        "5107818": {
+          "leaderShare": 0.007215,
+          "coLeader": 0.0139
+        },
+        "4348700": {
+          "leaderShare": 0.00703,
+          "coLeader": 0.01525
+        },
+        "4712849": {
+          "leaderShare": 0.007017,
+          "coLeader": 0.0153
+        },
+        "5041939": {
+          "leaderShare": 0.006946,
+          "coLeader": 0.0141
+        },
+        "4701230": {
+          "leaderShare": 0.006482,
+          "coLeader": 0.01305
+        },
+        "4278039": {
+          "leaderShare": 0.006403,
+          "coLeader": 0.0135
+        },
+        "4398207": {
+          "leaderShare": 0.006125,
+          "coLeader": 0.01255
+        },
+        "4277848": {
+          "leaderShare": 0.005933,
+          "coLeader": 0.0125
+        },
+        "4396909": {
+          "leaderShare": 0.005772,
+          "coLeader": 0.01155
+        },
+        "4432166": {
+          "leaderShare": 0.005317,
+          "coLeader": 0.01065
+        },
+        "4251": {
+          "leaderShare": 0.00521,
+          "coLeader": 0.0104
+        },
+        "5044385": {
+          "leaderShare": 0.005074,
+          "coLeader": 0.01005
+        },
+        "4701208": {
+          "leaderShare": 0.004891,
+          "coLeader": 0.0101
+        },
+        "4278073": {
+          "leaderShare": 0.004888,
+          "coLeader": 0.0098
+        },
+        "4873138": {
+          "leaderShare": 0.004885,
+          "coLeader": 0.01145
+        },
+        "4703396": {
+          "leaderShare": 0.004865,
+          "coLeader": 0.0097
+        },
+        "3133626": {
+          "leaderShare": 0.004848,
+          "coLeader": 0.0101
+        },
+        "4277847": {
+          "leaderShare": 0.004769,
+          "coLeader": 0.0101
+        },
+        "4066436": {
+          "leaderShare": 0.004608,
+          "coLeader": 0.0095
+        },
+        "5041955": {
+          "leaderShare": 0.004457,
+          "coLeader": 0.01005
+        },
+        "4700818": {
+          "leaderShare": 0.004415,
+          "coLeader": 0.00955
+        },
+        "3934719": {
+          "leaderShare": 0.004411,
+          "coLeader": 0.00975
+        },
+        "5106262": {
+          "leaderShare": 0.004304,
+          "coLeader": 0.0088
+        },
+        "4280151": {
+          "leaderShare": 0.004134,
+          "coLeader": 0.0091
+        },
+        "4997528": {
+          "leaderShare": 0.003658,
+          "coLeader": 0.0069
+        },
+        "2596112": {
+          "leaderShare": 0.003654,
+          "coLeader": 0.00715
+        },
+        "4702745": {
+          "leaderShare": 0.003567,
+          "coLeader": 0.0078
+        },
+        "4278053": {
+          "leaderShare": 0.003488,
+          "coLeader": 0.008
+        },
+        "3136195": {
+          "leaderShare": 0.00323,
+          "coLeader": 0.0065
+        },
+        "4900671": {
+          "leaderShare": 0.003228,
+          "coLeader": 0.0077
+        },
+        "5142718": {
+          "leaderShare": 0.003146,
+          "coLeader": 0.0074
+        },
+        "4066650": {
+          "leaderShare": 0.003115,
+          "coLeader": 0.00675
+        },
+        "4278129": {
+          "leaderShare": 0.002667,
+          "coLeader": 0.00535
+        },
+        "4431767": {
+          "leaderShare": 0.002623,
+          "coLeader": 0.00595
+        },
+        "4698719": {
+          "leaderShare": 0.00253,
+          "coLeader": 0.0055
+        },
+        "5239561": {
+          "leaderShare": 0.002489,
+          "coLeader": 0.00525
+        },
+        "3064290": {
+          "leaderShare": 0.002485,
+          "coLeader": 0.00535
+        },
+        "5106060": {
+          "leaderShare": 0.002436,
+          "coLeader": 0.0052
+        },
+        "4432165": {
+          "leaderShare": 0.002288,
+          "coLeader": 0.00535
+        },
+        "5105854": {
+          "leaderShare": 0.002247,
+          "coLeader": 0.00505
+        },
+        "4065673": {
+          "leaderShare": 0.00223,
+          "coLeader": 0.0053
+        },
+        "4397882": {
+          "leaderShare": 0.002224,
+          "coLeader": 0.0047
+        },
+        "4592427": {
+          "leaderShare": 0.002189,
+          "coLeader": 0.0053
+        },
+        "4566434": {
+          "leaderShare": 0.002185,
+          "coLeader": 0.0046
+        },
+        "4709138": {
+          "leaderShare": 0.002098,
+          "coLeader": 0.0052
+        },
+        "3064482": {
+          "leaderShare": 0.002061,
+          "coLeader": 0.005
+        },
+        "4397204": {
+          "leaderShare": 0.002057,
+          "coLeader": 0.00465
+        },
+        "2580365": {
+          "leaderShare": 0.00205,
+          "coLeader": 0.00435
+        },
+        "4897449": {
+          "leaderShare": 0.002036,
+          "coLeader": 0.0049
+        },
+        "5105839": {
+          "leaderShare": 0.002027,
+          "coLeader": 0.0051
+        },
+        "6442": {
+          "leaderShare": 0.001944,
+          "coLeader": 0.0047
+        },
+        "3147657": {
+          "leaderShare": 0.001794,
+          "coLeader": 0.00455
+        },
+        "5175647": {
+          "leaderShare": 0.001794,
+          "coLeader": 0.00445
+        },
+        "5142621": {
+          "leaderShare": 0.001779,
+          "coLeader": 0.0038
+        },
+        "6478": {
+          "leaderShare": 0.00171,
+          "coLeader": 0.0042
+        },
+        "4431687": {
+          "leaderShare": 0.001586,
+          "coLeader": 0.0039
+        },
+        "4397020": {
+          "leaderShare": 0.001572,
+          "coLeader": 0.0043
+        },
+        "4395626": {
+          "leaderShare": 0.001353,
+          "coLeader": 0.0029
+        },
+        "4997536": {
+          "leaderShare": 0.001349,
+          "coLeader": 0.0035
+        },
+        "4066320": {
+          "leaderShare": 0.001309,
+          "coLeader": 0.00325
+        },
+        "4873153": {
+          "leaderShare": 0.001284,
+          "coLeader": 0.0028
+        },
+        "4431772": {
+          "leaderShare": 0.001239,
+          "coLeader": 0.00285
+        },
+        "5106283": {
+          "leaderShare": 0.0012,
+          "coLeader": 0.00255
+        },
+        "5037878": {
+          "leaderShare": 0.001176,
+          "coLeader": 0.00255
+        },
+        "4433627": {
+          "leaderShare": 0.001139,
+          "coLeader": 0.0027
+        },
+        "4278076": {
+          "leaderShare": 0.001106,
+          "coLeader": 0.0025
+        },
+        "4684208": {
+          "leaderShare": 0.001102,
+          "coLeader": 0.0029
+        },
+        "4593125": {
+          "leaderShare": 0.001078,
+          "coLeader": 0.003
+        },
+        "4432822": {
+          "leaderShare": 0.001072,
+          "coLeader": 0.0022
+        },
+        "4683778": {
+          "leaderShare": 0.001067,
+          "coLeader": 0.00315
+        },
+        "4432582": {
+          "leaderShare": 0.001052,
+          "coLeader": 0.00255
+        },
+        "4432811": {
+          "leaderShare": 0.00104,
+          "coLeader": 0.0026
+        },
+        "5289900": {
+          "leaderShare": 0.00104,
+          "coLeader": 0.00225
+        },
+        "4433607": {
+          "leaderShare": 0.000976,
+          "coLeader": 0.0025
+        },
+        "4593049": {
+          "leaderShare": 0.000962,
+          "coLeader": 0.0021
+        },
+        "4433188": {
+          "leaderShare": 0.000937,
+          "coLeader": 0.0025
+        },
+        "4897943": {
+          "leaderShare": 0.000916,
+          "coLeader": 0.0022
+        },
+        "4432185": {
+          "leaderShare": 0.000914,
+          "coLeader": 0.00295
+        },
+        "4433618": {
+          "leaderShare": 0.000911,
+          "coLeader": 0.00205
+        },
+        "5107157": {
+          "leaderShare": 0.000891,
+          "coLeader": 0.00235
+        },
+        "4431714": {
+          "leaderShare": 0.000839,
+          "coLeader": 0.00265
+        },
+        "4684682": {
+          "leaderShare": 0.000826,
+          "coLeader": 0.0019
+        },
+        "4432819": {
+          "leaderShare": 0.000774,
+          "coLeader": 0.0018
+        },
+        "4065813": {
+          "leaderShare": 0.000773,
+          "coLeader": 0.0017
+        },
+        "4397183": {
+          "leaderShare": 0.00077,
+          "coLeader": 0.00225
+        },
+        "5241364": {
+          "leaderShare": 0.00077,
+          "coLeader": 0.00195
+        },
+        "4395712": {
+          "leaderShare": 0.000726,
+          "coLeader": 0.0018
+        },
+        "5105800": {
+          "leaderShare": 0.000712,
+          "coLeader": 0.00185
+        },
+        "4278594": {
+          "leaderShare": 0.000705,
+          "coLeader": 0.00195
+        },
+        "5105841": {
+          "leaderShare": 0.000691,
+          "coLeader": 0.0019
+        },
+        "4431690": {
+          "leaderShare": 0.000671,
+          "coLeader": 0.0017
+        },
+        "4683750": {
+          "leaderShare": 0.000662,
+          "coLeader": 0.0017
+        },
+        "4431941": {
+          "leaderShare": 0.000636,
+          "coLeader": 0.00155
+        },
+        "4431786": {
+          "leaderShare": 0.000633,
+          "coLeader": 0.00165
+        },
+        "4065804": {
+          "leaderShare": 0.000608,
+          "coLeader": 0.00155
+        },
+        "3195": {
+          "leaderShare": 0.000587,
+          "coLeader": 0.0016
+        },
+        "4065663": {
+          "leaderShare": 0.000554,
+          "coLeader": 0.0015
+        },
+        "4869342": {
+          "leaderShare": 0.000523,
+          "coLeader": 0.0012
+        },
+        "4684443": {
+          "leaderShare": 0.000452,
+          "coLeader": 0.00115
+        },
+        "3899664": {
+          "leaderShare": 0.000438,
+          "coLeader": 0.0012
+        },
+        "3149673": {
+          "leaderShare": 0.000421,
+          "coLeader": 0.00135
+        },
+        "4431823": {
+          "leaderShare": 0.00042,
+          "coLeader": 0.00105
+        },
+        "5242496": {
+          "leaderShare": 0.000369,
+          "coLeader": 0.00095
+        },
+        "2990984": {
+          "leaderShare": 0.000341,
+          "coLeader": 0.00115
+        },
+        "4897262": {
+          "leaderShare": 0.00034,
+          "coLeader": 0.0011
+        },
+        "4277869": {
+          "leaderShare": 0.000336,
+          "coLeader": 0.00105
+        },
+        "2578185": {
+          "leaderShare": 0.000329,
+          "coLeader": 0.0009
+        },
+        "4066354": {
+          "leaderShare": 0.000305,
+          "coLeader": 0.00085
+        },
+        "3914044": {
+          "leaderShare": 0.000298,
+          "coLeader": 0.001
+        },
+        "2990969": {
+          "leaderShare": 0.000287,
+          "coLeader": 0.00075
+        },
+        "2595516": {
+          "leaderShare": 0.000273,
+          "coLeader": 0.0006
+        },
+        "4702382": {
+          "leaderShare": 0.000262,
+          "coLeader": 0.00085
+        },
+        "5105592": {
+          "leaderShare": 0.00026,
+          "coLeader": 0.0008
+        },
+        "4397449": {
+          "leaderShare": 0.000257,
+          "coLeader": 0.00055
+        },
+        "4565698": {
+          "leaderShare": 0.000231,
+          "coLeader": 0.0006
+        },
+        "3934672": {
+          "leaderShare": 0.00023,
+          "coLeader": 0.0008
+        },
+        "5107199": {
+          "leaderShare": 0.000226,
+          "coLeader": 0.00085
+        },
+        "3978": {
+          "leaderShare": 0.000213,
+          "coLeader": 0.00085
+        },
+        "4592829": {
+          "leaderShare": 0.000199,
+          "coLeader": 0.00065
+        },
+        "4898010": {
+          "leaderShare": 0.000186,
+          "coLeader": 0.0006
+        },
+        "2528210": {
+          "leaderShare": 0.000182,
+          "coLeader": 0.00065
+        },
+        "4896372": {
+          "leaderShare": 0.000178,
+          "coLeader": 0.0005
+        },
+        "4838721": {
+          "leaderShare": 0.000175,
+          "coLeader": 0.0004
+        },
+        "3138160": {
+          "leaderShare": 0.00017,
+          "coLeader": 0.0007
+        },
+        "2581184": {
+          "leaderShare": 0.000155,
+          "coLeader": 0.0004
+        },
+        "4278355": {
+          "leaderShare": 0.000153,
+          "coLeader": 0.00035
+        },
+        "4277905": {
+          "leaderShare": 0.00015,
+          "coLeader": 0.00065
+        },
+        "3138196": {
+          "leaderShare": 0.000147,
+          "coLeader": 0.0004
+        },
+        "4683689": {
+          "leaderShare": 0.000144,
+          "coLeader": 0.00045
+        },
+        "6609": {
+          "leaderShare": 0.000143,
+          "coLeader": 0.00035
+        },
+        "4278572": {
+          "leaderShare": 0.000129,
+          "coLeader": 0.00055
+        },
+        "4593841": {
+          "leaderShare": 0.000125,
+          "coLeader": 0.0003
+        },
+        "4837356": {
+          "leaderShare": 0.000125,
+          "coLeader": 0.0004
+        },
+        "5144126": {
+          "leaderShare": 0.000116,
+          "coLeader": 0.00045
+        },
+        "3135046": {
+          "leaderShare": 0.00011,
+          "coLeader": 0.0006
+        },
+        "3133635": {
+          "leaderShare": 0.000108,
+          "coLeader": 0.00025
+        },
+        "4066993": {
+          "leaderShare": 9.2e-05,
+          "coLeader": 0.00015
+        },
+        "5105806": {
+          "leaderShare": 8.8e-05,
+          "coLeader": 0.0004
+        },
+        "5211983": {
+          "leaderShare": 8.7e-05,
+          "coLeader": 0.00035
+        },
+        "4845374": {
+          "leaderShare": 8.4e-05,
+          "coLeader": 0.0003
+        },
+        "3062679": {
+          "leaderShare": 7.8e-05,
+          "coLeader": 0.0003
+        },
+        "4684793": {
+          "leaderShare": 7.6e-05,
+          "coLeader": 0.00035
+        },
+        "4702384": {
+          "leaderShare": 7e-05,
+          "coLeader": 0.0002
+        },
+        "5238230": {
+          "leaderShare": 6.6e-05,
+          "coLeader": 0.00015
+        },
+        "4683736": {
+          "leaderShare": 5.6e-05,
+          "coLeader": 0.0002
+        },
+        "4700852": {
+          "leaderShare": 5.2e-05,
+          "coLeader": 0.0003
+        },
+        "4433225": {
+          "leaderShare": 5.1e-05,
+          "coLeader": 0.00025
+        },
+        "3134903": {
+          "leaderShare": 5e-05,
+          "coLeader": 0.00015
+        },
+        "4593034": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4601025": {
+          "leaderShare": 3.7e-05,
+          "coLeader": 0.00015
+        },
+        "4683730": {
+          "leaderShare": 3.3e-05,
+          "coLeader": 0.00015
+        },
+        "4683766": {
+          "leaderShare": 2.9e-05,
+          "coLeader": 0.00015
+        },
+        "4432107": {
+          "leaderShare": 2.5e-05,
+          "coLeader": 5e-05
+        },
+        "4433149": {
+          "leaderShare": 2.5e-05,
+          "coLeader": 5e-05
+        },
+        "4848625": {
+          "leaderShare": 2.4e-05,
+          "coLeader": 0.0002
+        },
+        "2528426": {
+          "leaderShare": 7e-06,
+          "coLeader": 0.0001
+        },
+        "4395702": {
+          "leaderShare": 6e-06,
+          "coLeader": 0.0001
+        },
+        "4397251": {
+          "leaderShare": 5e-06,
+          "coLeader": 5e-05
+        },
+        "4433629": {
+          "leaderShare": 5e-06,
+          "coLeader": 5e-05
+        },
+        "4431752": {
+          "leaderShare": 5e-06,
+          "coLeader": 5e-05
+        },
+        "3133602": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2490149": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2530530": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2990962": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2991350": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3078576": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3102530": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3102531": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3146557": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3157465": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3975": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065648": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065654": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4066336": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4277961": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4278078": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4351852": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4396993": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397040": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432171": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432181": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432187": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432573": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432823": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432907": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433076": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433255": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433621": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4593803": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4606840": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683688": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683692": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683771": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4712863": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4873201": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4997537": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5061603": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5095151": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105555": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105571": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5106040": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5107251": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5148538": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5149077": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5157066": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5159925": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5214637": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5258459": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5279129": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "6430": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        }
+      }
+    },
+    "STL": {
+      "label": "抢断",
+      "first": {
+        "id": "4684742",
+        "name": "奥萨尔·汤普森",
+        "nameOriginal": "Ausar Thompson",
+        "team": "DET",
+        "teamName": "活塞",
+        "gameId": "401910029",
+        "position": "G",
+        "status": "unknown",
+        "recommendationEligible": true,
+        "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+        "confirmation": null,
+        "injuryEvidence": "未列伤病不代表确认出场",
+        "playProbability": 0.95,
+        "minutes": 28.142857142857142,
+        "minuteSource": "历史轮换模型估计，未确认首发",
+        "samples": 18,
+        "currentSamples": 12,
+        "confidence": "模型估计，未校准",
+        "reasons": [
+          "历史样本18场，本季12场；近5场向赛季/位置均值收缩",
+          "对手与节奏修正1.01倍；预计出场概率为启发式假设",
+          "非背靠背/样本未检测到背靠背"
+        ],
+        "expected": 2.12,
+        "p10": 0.0,
+        "p90": 4.0,
+        "leaderShare": 0.072723,
+        "coLeaderProbability": 0.11285,
+        "top3Probability": 0.2498,
+        "expectedMinutes": 29.0,
+        "distribution": {
+          "0": 0.17245,
+          "1": 0.2265,
+          "2": 0.24015,
+          "3": 0.17745,
+          "4": 0.0968,
+          "5": 0.0514,
+          "6": 0.02075,
+          "7": 0.00865,
+          "8": 0.0038,
+          "9": 0.00125,
+          "10": 0.0003,
+          "11": 0.00035,
+          "13": 0.00015
+        }
+      },
+      "candidates": [
+        {
+          "id": "4684742",
+          "name": "奥萨尔·汤普森",
+          "nameOriginal": "Ausar Thompson",
+          "team": "DET",
+          "teamName": "活塞",
+          "gameId": "401910029",
+          "position": "G",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 28.142857142857142,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 18,
+          "currentSamples": 12,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本18场，本季12场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正1.01倍；预计出场概率为启发式假设",
+            "非背靠背/样本未检测到背靠背"
+          ],
+          "expected": 2.12,
+          "p10": 0.0,
+          "p90": 4.0,
+          "leaderShare": 0.072723,
+          "coLeaderProbability": 0.11285,
+          "top3Probability": 0.2498,
+          "expectedMinutes": 29.0,
+          "distribution": {
+            "0": 0.17245,
+            "1": 0.2265,
+            "2": 0.24015,
+            "3": 0.17745,
+            "4": 0.0968,
+            "5": 0.0514,
+            "6": 0.02075,
+            "7": 0.00865,
+            "8": 0.0038,
+            "9": 0.00125,
+            "10": 0.0003,
+            "11": 0.00035,
+            "13": 0.00015
+          }
+        },
+        {
+          "id": "4869342",
+          "name": "戴森·丹尼尔斯",
+          "nameOriginal": "Dyson Daniels",
+          "team": "ATL",
+          "teamName": "老鹰",
+          "gameId": "401910029",
+          "position": "G",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 29.428571428571427,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 18,
+          "currentSamples": 13,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本18场，本季13场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正0.98倍；预计出场概率为启发式假设",
+            "非背靠背/样本未检测到背靠背"
+          ],
+          "expected": 1.97,
+          "p10": 0.0,
+          "p90": 4.0,
+          "leaderShare": 0.057401,
+          "coLeaderProbability": 0.0922,
+          "top3Probability": 0.2165,
+          "expectedMinutes": 28.6,
+          "distribution": {
+            "0": 0.18095,
+            "1": 0.25315,
+            "2": 0.2423,
+            "3": 0.16775,
+            "4": 0.08945,
+            "5": 0.04225,
+            "6": 0.0158,
+            "7": 0.00565,
+            "8": 0.00175,
+            "9": 0.0006,
+            "10": 0.0002,
+            "11": 0.00015
+          }
+        },
+        {
+          "id": "4251",
+          "name": "保罗·乔治",
+          "nameOriginal": "Paul George",
+          "team": "BOS",
+          "teamName": "凯尔特人",
+          "gameId": "401910035",
+          "position": "F",
+          "status": "unknown",
+          "recommendationEligible": true,
+          "recommendationBasis": "未列伤病+本队近期至少2场+预计18分钟以上（非确认出场）",
+          "confirmation": null,
+          "injuryEvidence": "未列伤病不代表确认出场",
+          "playProbability": 0.95,
+          "minutes": 26.467142857142857,
+          "minuteSource": "历史轮换模型估计，未确认首发",
+          "samples": 19,
+          "currentSamples": 12,
+          "confidence": "模型估计，未校准",
+          "reasons": [
+            "历史样本19场，本季12场；近5场向赛季/位置均值收缩",
+            "对手与节奏修正0.97倍；预计出场概率为启发式假设",
+            "背靠背分钟折减3%"
+          ],
+          "expected": 1.79,
+          "p10": 0.0,
+          "p90": 4.0,
+          "leaderShare": 0.051895,
+          "coLeaderProbability": 0.0808,
+          "top3Probability": 0.1893,
+          "expectedMinutes": 28.0,
+          "distribution": {
+            "0": 0.2357,
+            "1": 0.2676,
+            "2": 0.2167,
+            "3": 0.14135,
+            "4": 0.07535,
+            "5": 0.03645,
+            "6": 0.0157,
+            "7": 0.0072,
+            "8": 0.0025,
+            "9": 0.00095,
+            "10": 0.00035,
+            "11": 0.00015
+          }
+        }
+      ],
+      "probabilities": {
+        "4684742": {
+          "leaderShare": 0.072723,
+          "coLeader": 0.11285
+        },
+        "4869342": {
+          "leaderShare": 0.057401,
+          "coLeader": 0.0922
+        },
+        "4251": {
+          "leaderShare": 0.051895,
+          "coLeader": 0.0808
+        },
+        "4431767": {
+          "leaderShare": 0.048181,
+          "coLeader": 0.0795
+        },
+        "4278562": {
+          "leaderShare": 0.040454,
+          "coLeader": 0.0595
+        },
+        "5041939": {
+          "leaderShare": 0.038526,
+          "coLeader": 0.0576
+        },
+        "6442": {
+          "leaderShare": 0.026676,
+          "coLeader": 0.0414
+        },
+        "4712849": {
+          "leaderShare": 0.022629,
+          "coLeader": 0.04035
+        },
+        "4066320": {
+          "leaderShare": 0.021696,
+          "coLeader": 0.03465
+        },
+        "3133626": {
+          "leaderShare": 0.019696,
+          "coLeader": 0.0319
+        },
+        "4397020": {
+          "leaderShare": 0.018135,
+          "coLeader": 0.0297
+        },
+        "5107199": {
+          "leaderShare": 0.017243,
+          "coLeader": 0.03165
+        },
+        "5241364": {
+          "leaderShare": 0.017171,
+          "coLeader": 0.02725
+        },
+        "4432822": {
+          "leaderShare": 0.017068,
+          "coLeader": 0.0273
+        },
+        "3936299": {
+          "leaderShare": 0.014783,
+          "coLeader": 0.0244
+        },
+        "3195": {
+          "leaderShare": 0.01429,
+          "coLeader": 0.0227
+        },
+        "3112335": {
+          "leaderShare": 0.014009,
+          "coLeader": 0.0258
+        },
+        "4278053": {
+          "leaderShare": 0.013584,
+          "coLeader": 0.02275
+        },
+        "4277905": {
+          "leaderShare": 0.013385,
+          "coLeader": 0.02395
+        },
+        "4066372": {
+          "leaderShare": 0.012981,
+          "coLeader": 0.0255
+        },
+        "4066261": {
+          "leaderShare": 0.011539,
+          "coLeader": 0.0224
+        },
+        "5142718": {
+          "leaderShare": 0.011508,
+          "coLeader": 0.02225
+        },
+        "2596112": {
+          "leaderShare": 0.011302,
+          "coLeader": 0.0214
+        },
+        "3133603": {
+          "leaderShare": 0.011166,
+          "coLeader": 0.01925
+        },
+        "4278594": {
+          "leaderShare": 0.011134,
+          "coLeader": 0.02215
+        },
+        "4432185": {
+          "leaderShare": 0.010789,
+          "coLeader": 0.0184
+        },
+        "4701230": {
+          "leaderShare": 0.01072,
+          "coLeader": 0.0183
+        },
+        "4593841": {
+          "leaderShare": 0.010342,
+          "coLeader": 0.01945
+        },
+        "4395626": {
+          "leaderShare": 0.009821,
+          "coLeader": 0.0172
+        },
+        "4278039": {
+          "leaderShare": 0.009219,
+          "coLeader": 0.0174
+        },
+        "4683778": {
+          "leaderShare": 0.008964,
+          "coLeader": 0.01765
+        },
+        "4066436": {
+          "leaderShare": 0.00891,
+          "coLeader": 0.016
+        },
+        "3138196": {
+          "leaderShare": 0.008865,
+          "coLeader": 0.0171
+        },
+        "4222252": {
+          "leaderShare": 0.008614,
+          "coLeader": 0.0168
+        },
+        "4592829": {
+          "leaderShare": 0.008585,
+          "coLeader": 0.01735
+        },
+        "4432165": {
+          "leaderShare": 0.008572,
+          "coLeader": 0.01725
+        },
+        "3134903": {
+          "leaderShare": 0.008101,
+          "coLeader": 0.01525
+        },
+        "3062679": {
+          "leaderShare": 0.007605,
+          "coLeader": 0.0139
+        },
+        "4900671": {
+          "leaderShare": 0.007432,
+          "coLeader": 0.01425
+        },
+        "3147657": {
+          "leaderShare": 0.007277,
+          "coLeader": 0.01565
+        },
+        "4897262": {
+          "leaderShare": 0.006976,
+          "coLeader": 0.01285
+        },
+        "5041955": {
+          "leaderShare": 0.006558,
+          "coLeader": 0.0132
+        },
+        "3138160": {
+          "leaderShare": 0.006343,
+          "coLeader": 0.01245
+        },
+        "4432166": {
+          "leaderShare": 0.006069,
+          "coLeader": 0.0109
+        },
+        "5211175": {
+          "leaderShare": 0.005237,
+          "coLeader": 0.01105
+        },
+        "4431680": {
+          "leaderShare": 0.005112,
+          "coLeader": 0.0108
+        },
+        "5105854": {
+          "leaderShare": 0.005104,
+          "coLeader": 0.00995
+        },
+        "5174563": {
+          "leaderShare": 0.004996,
+          "coLeader": 0.00945
+        },
+        "6583": {
+          "leaderShare": 0.004819,
+          "coLeader": 0.00975
+        },
+        "5238230": {
+          "leaderShare": 0.004653,
+          "coLeader": 0.00865
+        },
+        "4432582": {
+          "leaderShare": 0.004268,
+          "coLeader": 0.00785
+        },
+        "4065663": {
+          "leaderShare": 0.004147,
+          "coLeader": 0.00905
+        },
+        "4873138": {
+          "leaderShare": 0.003892,
+          "coLeader": 0.008
+        },
+        "4683689": {
+          "leaderShare": 0.00385,
+          "coLeader": 0.0082
+        },
+        "4065804": {
+          "leaderShare": 0.003844,
+          "coLeader": 0.0074
+        },
+        "5104155": {
+          "leaderShare": 0.003816,
+          "coLeader": 0.0076
+        },
+        "4601025": {
+          "leaderShare": 0.00357,
+          "coLeader": 0.0083
+        },
+        "5160992": {
+          "leaderShare": 0.003472,
+          "coLeader": 0.0083
+        },
+        "4566434": {
+          "leaderShare": 0.00347,
+          "coLeader": 0.0072
+        },
+        "4431687": {
+          "leaderShare": 0.003468,
+          "coLeader": 0.0065
+        },
+        "4684208": {
+          "leaderShare": 0.003309,
+          "coLeader": 0.0057
+        },
+        "5175647": {
+          "leaderShare": 0.003259,
+          "coLeader": 0.006
+        },
+        "5175737": {
+          "leaderShare": 0.003252,
+          "coLeader": 0.00735
+        },
+        "4395702": {
+          "leaderShare": 0.003241,
+          "coLeader": 0.00595
+        },
+        "4873153": {
+          "leaderShare": 0.003238,
+          "coLeader": 0.0065
+        },
+        "3149673": {
+          "leaderShare": 0.003222,
+          "coLeader": 0.00565
+        },
+        "4066354": {
+          "leaderShare": 0.003198,
+          "coLeader": 0.0059
+        },
+        "5239561": {
+          "leaderShare": 0.003079,
+          "coLeader": 0.00675
+        },
+        "2990984": {
+          "leaderShare": 0.003061,
+          "coLeader": 0.0064
+        },
+        "3136195": {
+          "leaderShare": 0.002988,
+          "coLeader": 0.00595
+        },
+        "3934672": {
+          "leaderShare": 0.002929,
+          "coLeader": 0.00655
+        },
+        "4432819": {
+          "leaderShare": 0.002912,
+          "coLeader": 0.0058
+        },
+        "4896372": {
+          "leaderShare": 0.002868,
+          "coLeader": 0.00555
+        },
+        "3064290": {
+          "leaderShare": 0.002805,
+          "coLeader": 0.00555
+        },
+        "4278073": {
+          "leaderShare": 0.002774,
+          "coLeader": 0.0059
+        },
+        "4397077": {
+          "leaderShare": 0.002674,
+          "coLeader": 0.00525
+        },
+        "4709138": {
+          "leaderShare": 0.002551,
+          "coLeader": 0.00575
+        },
+        "4397251": {
+          "leaderShare": 0.002548,
+          "coLeader": 0.0045
+        },
+        "4433188": {
+          "leaderShare": 0.002539,
+          "coLeader": 0.00545
+        },
+        "4397183": {
+          "leaderShare": 0.002511,
+          "coLeader": 0.0052
+        },
+        "4431714": {
+          "leaderShare": 0.00251,
+          "coLeader": 0.0054
+        },
+        "4711294": {
+          "leaderShare": 0.002508,
+          "coLeader": 0.0054
+        },
+        "4702745": {
+          "leaderShare": 0.002469,
+          "coLeader": 0.0048
+        },
+        "4278049": {
+          "leaderShare": 0.002445,
+          "coLeader": 0.00525
+        },
+        "4432811": {
+          "leaderShare": 0.002376,
+          "coLeader": 0.005
+        },
+        "4398207": {
+          "leaderShare": 0.002359,
+          "coLeader": 0.0055
+        },
+        "5107157": {
+          "leaderShare": 0.002344,
+          "coLeader": 0.00505
+        },
+        "3934719": {
+          "leaderShare": 0.002289,
+          "coLeader": 0.00495
+        },
+        "4702384": {
+          "leaderShare": 0.002191,
+          "coLeader": 0.00435
+        },
+        "4397189": {
+          "leaderShare": 0.002179,
+          "coLeader": 0.0041
+        },
+        "6589": {
+          "leaderShare": 0.002069,
+          "coLeader": 0.0046
+        },
+        "3978": {
+          "leaderShare": 0.002058,
+          "coLeader": 0.00445
+        },
+        "4348700": {
+          "leaderShare": 0.00198,
+          "coLeader": 0.00405
+        },
+        "3133635": {
+          "leaderShare": 0.001978,
+          "coLeader": 0.00435
+        },
+        "5105800": {
+          "leaderShare": 0.001957,
+          "coLeader": 0.0037
+        },
+        "3908845": {
+          "leaderShare": 0.001902,
+          "coLeader": 0.00445
+        },
+        "4433627": {
+          "leaderShare": 0.001895,
+          "coLeader": 0.0038
+        },
+        "4397449": {
+          "leaderShare": 0.001812,
+          "coLeader": 0.0036
+        },
+        "4431823": {
+          "leaderShare": 0.001811,
+          "coLeader": 0.00335
+        },
+        "2595516": {
+          "leaderShare": 0.001786,
+          "coLeader": 0.004
+        },
+        "4848625": {
+          "leaderShare": 0.001756,
+          "coLeader": 0.00345
+        },
+        "4593125": {
+          "leaderShare": 0.001692,
+          "coLeader": 0.00365
+        },
+        "4431941": {
+          "leaderShare": 0.001668,
+          "coLeader": 0.00345
+        },
+        "4396909": {
+          "leaderShare": 0.001617,
+          "coLeader": 0.0036
+        },
+        "3133602": {
+          "leaderShare": 0.001608,
+          "coLeader": 0.0036
+        },
+        "3914044": {
+          "leaderShare": 0.001591,
+          "coLeader": 0.0036
+        },
+        "6585": {
+          "leaderShare": 0.001554,
+          "coLeader": 0.0032
+        },
+        "4702382": {
+          "leaderShare": 0.001482,
+          "coLeader": 0.00295
+        },
+        "4397424": {
+          "leaderShare": 0.001405,
+          "coLeader": 0.0032
+        },
+        "4433607": {
+          "leaderShare": 0.001396,
+          "coLeader": 0.00325
+        },
+        "2580365": {
+          "leaderShare": 0.00131,
+          "coLeader": 0.0028
+        },
+        "4433225": {
+          "leaderShare": 0.001303,
+          "coLeader": 0.00335
+        },
+        "4277919": {
+          "leaderShare": 0.001243,
+          "coLeader": 0.00255
+        },
+        "4593034": {
+          "leaderShare": 0.00123,
+          "coLeader": 0.003
+        },
+        "4683750": {
+          "leaderShare": 0.001169,
+          "coLeader": 0.00245
+        },
+        "4565698": {
+          "leaderShare": 0.001134,
+          "coLeader": 0.0022
+        },
+        "4277847": {
+          "leaderShare": 0.001113,
+          "coLeader": 0.0027
+        },
+        "4395712": {
+          "leaderShare": 0.001104,
+          "coLeader": 0.0029
+        },
+        "4066650": {
+          "leaderShare": 0.001104,
+          "coLeader": 0.00225
+        },
+        "5142621": {
+          "leaderShare": 0.001094,
+          "coLeader": 0.00235
+        },
+        "4277848": {
+          "leaderShare": 0.001034,
+          "coLeader": 0.0024
+        },
+        "3064482": {
+          "leaderShare": 0.001009,
+          "coLeader": 0.00235
+        },
+        "4898010": {
+          "leaderShare": 0.000991,
+          "coLeader": 0.0023
+        },
+        "4683736": {
+          "leaderShare": 0.000972,
+          "coLeader": 0.00175
+        },
+        "5106262": {
+          "leaderShare": 0.000971,
+          "coLeader": 0.00225
+        },
+        "5106060": {
+          "leaderShare": 0.00094,
+          "coLeader": 0.0023
+        },
+        "4871145": {
+          "leaderShare": 0.000915,
+          "coLeader": 0.0025
+        },
+        "4683766": {
+          "leaderShare": 0.000913,
+          "coLeader": 0.00215
+        },
+        "3213": {
+          "leaderShare": 0.000874,
+          "coLeader": 0.00215
+        },
+        "4997536": {
+          "leaderShare": 0.00084,
+          "coLeader": 0.0024
+        },
+        "3135046": {
+          "leaderShare": 0.00084,
+          "coLeader": 0.00215
+        },
+        "4592427": {
+          "leaderShare": 0.000838,
+          "coLeader": 0.0018
+        },
+        "4066993": {
+          "leaderShare": 0.000812,
+          "coLeader": 0.00185
+        },
+        "4277951": {
+          "leaderShare": 0.000808,
+          "coLeader": 0.00195
+        },
+        "5242496": {
+          "leaderShare": 0.00079,
+          "coLeader": 0.00155
+        },
+        "3059319": {
+          "leaderShare": 0.000769,
+          "coLeader": 0.00135
+        },
+        "4698719": {
+          "leaderShare": 0.000767,
+          "coLeader": 0.0018
+        },
+        "5105839": {
+          "leaderShare": 0.000752,
+          "coLeader": 0.0017
+        },
+        "3899664": {
+          "leaderShare": 0.000709,
+          "coLeader": 0.0016
+        },
+        "4278067": {
+          "leaderShare": 0.000681,
+          "coLeader": 0.0015
+        },
+        "5105806": {
+          "leaderShare": 0.000675,
+          "coLeader": 0.00135
+        },
+        "5105841": {
+          "leaderShare": 0.000675,
+          "coLeader": 0.00145
+        },
+        "4277869": {
+          "leaderShare": 0.000615,
+          "coLeader": 0.00145
+        },
+        "4397886": {
+          "leaderShare": 0.000591,
+          "coLeader": 0.00125
+        },
+        "4700852": {
+          "leaderShare": 0.000587,
+          "coLeader": 0.0012
+        },
+        "4431786": {
+          "leaderShare": 0.000585,
+          "coLeader": 0.00175
+        },
+        "4433149": {
+          "leaderShare": 0.00058,
+          "coLeader": 0.0015
+        },
+        "5106283": {
+          "leaderShare": 0.000501,
+          "coLeader": 0.00105
+        },
+        "4997528": {
+          "leaderShare": 0.000498,
+          "coLeader": 0.00115
+        },
+        "4278572": {
+          "leaderShare": 0.000482,
+          "coLeader": 0.001
+        },
+        "4280151": {
+          "leaderShare": 0.000481,
+          "coLeader": 0.001
+        },
+        "4065813": {
+          "leaderShare": 0.000475,
+          "coLeader": 0.0011
+        },
+        "4845374": {
+          "leaderShare": 0.00047,
+          "coLeader": 0.0016
+        },
+        "5289900": {
+          "leaderShare": 0.000455,
+          "coLeader": 0.00095
+        },
+        "5144126": {
+          "leaderShare": 0.000446,
+          "coLeader": 0.00135
+        },
+        "5044385": {
+          "leaderShare": 0.00042,
+          "coLeader": 0.00105
+        },
+        "4897449": {
+          "leaderShare": 0.000401,
+          "coLeader": 0.0009
+        },
+        "4683730": {
+          "leaderShare": 0.000399,
+          "coLeader": 0.001
+        },
+        "2990969": {
+          "leaderShare": 0.000391,
+          "coLeader": 0.00095
+        },
+        "3032977": {
+          "leaderShare": 0.000391,
+          "coLeader": 0.00105
+        },
+        "5211983": {
+          "leaderShare": 0.000389,
+          "coLeader": 0.0008
+        },
+        "4703396": {
+          "leaderShare": 0.000386,
+          "coLeader": 0.0013
+        },
+        "4837356": {
+          "leaderShare": 0.000377,
+          "coLeader": 0.00095
+        },
+        "4433629": {
+          "leaderShare": 0.000365,
+          "coLeader": 0.0008
+        },
+        "2528210": {
+          "leaderShare": 0.000357,
+          "coLeader": 0.001
+        },
+        "2528426": {
+          "leaderShare": 0.00035,
+          "coLeader": 0.0006
+        },
+        "5105592": {
+          "leaderShare": 0.000342,
+          "coLeader": 0.00085
+        },
+        "2578185": {
+          "leaderShare": 0.000336,
+          "coLeader": 0.00085
+        },
+        "4397882": {
+          "leaderShare": 0.000329,
+          "coLeader": 0.00105
+        },
+        "4701208": {
+          "leaderShare": 0.00024,
+          "coLeader": 0.00075
+        },
+        "4433618": {
+          "leaderShare": 0.000238,
+          "coLeader": 0.0007
+        },
+        "4431752": {
+          "leaderShare": 0.000233,
+          "coLeader": 0.0006
+        },
+        "4897943": {
+          "leaderShare": 0.000229,
+          "coLeader": 0.00065
+        },
+        "4432808": {
+          "leaderShare": 0.000215,
+          "coLeader": 0.00055
+        },
+        "4838721": {
+          "leaderShare": 0.000191,
+          "coLeader": 0.0005
+        },
+        "4432107": {
+          "leaderShare": 0.000183,
+          "coLeader": 0.00045
+        },
+        "2581184": {
+          "leaderShare": 0.000174,
+          "coLeader": 0.0005
+        },
+        "4431690": {
+          "leaderShare": 0.000174,
+          "coLeader": 0.0003
+        },
+        "4397204": {
+          "leaderShare": 0.000169,
+          "coLeader": 0.0004
+        },
+        "4065731": {
+          "leaderShare": 0.000131,
+          "coLeader": 0.00035
+        },
+        "6475": {
+          "leaderShare": 0.000127,
+          "coLeader": 0.00035
+        },
+        "4065673": {
+          "leaderShare": 0.00011,
+          "coLeader": 0.00035
+        },
+        "4278129": {
+          "leaderShare": 0.000101,
+          "coLeader": 0.00025
+        },
+        "4593049": {
+          "leaderShare": 0.0001,
+          "coLeader": 0.00015
+        },
+        "5174983": {
+          "leaderShare": 9.7e-05,
+          "coLeader": 0.0002
+        },
+        "6609": {
+          "leaderShare": 8.4e-05,
+          "coLeader": 0.00035
+        },
+        "5107818": {
+          "leaderShare": 7.4e-05,
+          "coLeader": 0.00025
+        },
+        "4278076": {
+          "leaderShare": 7.1e-05,
+          "coLeader": 0.0002
+        },
+        "4017837": {
+          "leaderShare": 6.8e-05,
+          "coLeader": 0.0002
+        },
+        "4684793": {
+          "leaderShare": 6.3e-05,
+          "coLeader": 0.0001
+        },
+        "4431772": {
+          "leaderShare": 6.3e-05,
+          "coLeader": 0.0001
+        },
+        "4684443": {
+          "leaderShare": 6e-05,
+          "coLeader": 0.0002
+        },
+        "4278355": {
+          "leaderShare": 5e-05,
+          "coLeader": 5e-05
+        },
+        "4700818": {
+          "leaderShare": 3.9e-05,
+          "coLeader": 0.00015
+        },
+        "4684682": {
+          "leaderShare": 2e-05,
+          "coLeader": 0.0001
+        },
+        "5037878": {
+          "leaderShare": 1.2e-05,
+          "coLeader": 0.0001
+        },
+        "6478": {
+          "leaderShare": 8e-06,
+          "coLeader": 5e-05
+        },
+        "2490149": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2530530": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2990962": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "2991350": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3078576": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3102530": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3102531": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3146557": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3157465": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "3975": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065648": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4065654": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4066336": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4277961": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4278078": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4351852": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4396993": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4397040": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432171": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432181": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432187": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432573": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432823": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4432907": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433076": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433255": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4433621": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4593803": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4606840": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683688": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683692": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4683771": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4712863": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4873201": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "4997537": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5061603": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5095151": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105555": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5105571": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5106040": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5107251": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5148538": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5149077": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5157066": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5159925": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5214637": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5258459": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "5279129": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        },
+        "6430": {
+          "leaderShare": 0.0,
+          "coLeader": 0.0
+        }
+      }
+    }
+  },
+  "warnings": [
+    "V1为分层收缩与启发式参数模型，概率尚未经过前瞻校准；不保证准确率",
+    "分钟/轮换由历史估计，未接入可靠自动首发确认源；阵容变动按每次抓取重算",
+    "球员比赛内和对阵节奏存在共享随机因素；尚非完整攻防回合模拟",
+    "官方伤病报告暂不可用，当前为备用媒体伤病信息；未列出视为未知",
+    "NBA官方进阶接口不可用，球队及对手指标降级为基础技术统计估算",
+    "媒体伤病快照可能含缓存条目，出场概率为状态映射假设，非官方概率"
+  ],
+  "officialInjuries": {
+    "state": "unavailable",
+    "url": "https://official.nba.com/nba-injury-report-2026-27-season/",
+    "checkedAt": "2026-11-22T07:30:51.356944Z",
+    "players": {},
+    "note": "403 Client Error: Forbidden for url: https://official.nba.com/nba-injury-report-2026-27-season/"
+  },
+  "advancedStats": {
+    "state": "unavailable",
+    "url": "https://stats.nba.com/stats/leaguedashteamstats",
+    "checkedAt": "2026-11-22T07:30:51.356944Z",
+    "teams": {},
+    "note": "HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=10)"
+  },
+  "inputHash": "e968032931f8a51421ad97f9cf89c8ef543f500c8a297bc7185c6d6f7b5df49b",
+  "coverage": [
+    {
+      "team": "DET",
+      "rosterPlayers": 18,
+      "noHistory": 1
+    },
+    {
+      "team": "ATL",
+      "rosterPlayers": 18,
+      "noHistory": 2
+    },
+    {
+      "team": "OKC",
+      "rosterPlayers": 18,
+      "noHistory": 1
+    },
+    {
+      "team": "MIA",
+      "rosterPlayers": 17,
+      "noHistory": 0
+    },
+    {
+      "team": "ORL",
+      "rosterPlayers": 17,
+      "noHistory": 2
+    },
+    {
+      "team": "WAS",
+      "rosterPlayers": 18,
+      "noHistory": 1
+    },
+    {
+      "team": "DEN",
+      "rosterPlayers": 17,
+      "noHistory": 0
+    },
+    {
+      "team": "CHI",
+      "rosterPlayers": 18,
+      "noHistory": 1
+    },
+    {
+      "team": "DAL",
+      "rosterPlayers": 18,
+      "noHistory": 2
+    },
+    {
+      "team": "UTA",
+      "rosterPlayers": 18,
+      "noHistory": 2
+    },
+    {
+      "team": "IND",
+      "rosterPlayers": 17,
+      "noHistory": 1
+    },
+    {
+      "team": "NYK",
+      "rosterPlayers": 17,
+      "noHistory": 1
+    },
+    {
+      "team": "BOS",
+      "rosterPlayers": 17,
+      "noHistory": 0
+    },
+    {
+      "team": "GSW",
+      "rosterPlayers": 18,
+      "noHistory": 2
+    }
+  ],
+  "teamMetrics": {
+    "DET": {
+      "paceEstimate": 101.6,
+      "offensiveRatingEstimate": 115.08,
+      "defensiveRatingEstimate": 110.89,
+      "sampleGames": 12,
+      "kind": "由基础技术统计估算，非官方进阶指标"
+    },
+    "ATL": {
+      "paceEstimate": 101.6,
+      "offensiveRatingEstimate": 110.86,
+      "defensiveRatingEstimate": 110.21,
+      "sampleGames": 12,
+      "kind": "由基础技术统计估算，非官方进阶指标"
+    },
+    "OKC": {
+      "paceEstimate": 102.44,
+      "offensiveRatingEstimate": 111.5,
+      "defensiveRatingEstimate": 109.4,
+      "sampleGames": 12,
+      "kind": "由基础技术统计估算，非官方进阶指标"
+    },
+    "MIA": {
+      "paceEstimate": 102.44,
+      "offensiveRatingEstimate": 118.84,
+      "defensiveRatingEstimate": 114.18,
+      "sampleGames": 12,
+      "kind": "由基础技术统计估算，非官方进阶指标"
+    },
+    "ORL": {
+      "paceEstimate": 99.75,
+      "offensiveRatingEstimate": 111.58,
+      "defensiveRatingEstimate": 113.65,
+      "sampleGames": 12,
+      "kind": "由基础技术统计估算，非官方进阶指标"
+    },
+    "WAS": {
+      "paceEstimate": 99.75,
+      "offensiveRatingEstimate": 108.39,
+      "defensiveRatingEstimate": 116.41,
+      "sampleGames": 12,
+      "kind": "由基础技术统计估算，非官方进阶指标"
+    },
+    "DEN": {
+      "paceEstimate": 101.83,
+      "offensiveRatingEstimate": 115.58,
+      "defensiveRatingEstimate": 113.49,
+      "sampleGames": 12,
+      "kind": "由基础技术统计估算，非官方进阶指标"
+    },
+    "CHI": {
+      "paceEstimate": 101.83,
+      "offensiveRatingEstimate": 109.81,
+      "defensiveRatingEstimate": 116.14,
+      "sampleGames": 12,
+      "kind": "由基础技术统计估算，非官方进阶指标"
+    },
+    "DAL": {
+      "paceEstimate": 100.94,
+      "offensiveRatingEstimate": 111.36,
+      "defensiveRatingEstimate": 110.37,
+      "sampleGames": 12,
+      "kind": "由基础技术统计估算，非官方进阶指标"
+    },
+    "UTA": {
+      "paceEstimate": 100.94,
+      "offensiveRatingEstimate": 105.69,
+      "defensiveRatingEstimate": 112.81,
+      "sampleGames": 12,
+      "kind": "由基础技术统计估算，非官方进阶指标"
+    },
+    "IND": {
+      "paceEstimate": 99.53,
+      "offensiveRatingEstimate": 108.14,
+      "defensiveRatingEstimate": 113.36,
+      "sampleGames": 12,
+      "kind": "由基础技术统计估算，非官方进阶指标"
+    },
+    "NYK": {
+      "paceEstimate": 99.53,
+      "offensiveRatingEstimate": 115.03,
+      "defensiveRatingEstimate": 106.76,
+      "sampleGames": 12,
+      "kind": "由基础技术统计估算，非官方进阶指标"
+    },
+    "BOS": {
+      "paceEstimate": 99.6,
+      "offensiveRatingEstimate": 113.61,
+      "defensiveRatingEstimate": 102.97,
+      "sampleGames": 12,
+      "kind": "由基础技术统计估算，非官方进阶指标"
+    },
+    "GSW": {
+      "paceEstimate": 99.6,
+      "offensiveRatingEstimate": 110.37,
+      "defensiveRatingEstimate": 110.43,
+      "sampleGames": 12,
+      "kind": "由基础技术统计估算，非官方进阶指标"
+    }
+  },
+  "historyGames": 301,
+  "historyCoverage": {
+    "start": "2026-04-01T23:00Z",
+    "end": "2026-11-22T03:00Z",
+    "note": "当前滚动历史 + 开季上赛季4月先验，不等于完整生涯或完整赛季"
+  },
+  "diagnostics": [
+    {
+      "resource": "NBA official injury",
+      "error": "403 Client Error: Forbidden for url: https://official.nba.com/nba-injury-report-2026-27-season/"
+    },
+    {
+      "resource": "NBA official advanced",
+      "error": "HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=10)"
+    }
+  ],
+  "probabilityNote": "概率为未校准模型在当前假设下的模拟频率；20000次的最坏蒙特卡洛标准误约0.35个百分点，不包含模型和输入误差。",
+  "evaluation": {
+    "evaluatedDays": 25,
+    "categories": {
+      "PTS": {
+        "days": 25,
+        "top1HitRate": 0.16,
+        "top3HitRate": 0.4,
+        "brier": 0.004768183010048601,
+        "calibrationBins": [
+          {
+            "from": 0.0,
+            "count": 6548,
+            "meanProbability": 0.003298885155772755,
+            "observedFrequency": 0.003359804520464264
+          },
+          {
+            "from": 0.1,
+            "count": 34,
+            "meanProbability": 0.1367691176470588,
+            "observedFrequency": 0.14705882352941177
+          },
+          {
+            "from": 0.2,
+            "count": 4,
+            "meanProbability": 0.23443750000000002,
+            "observedFrequency": 0.0
+          },
+          {
+            "from": 0.3,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.4,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.5,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.6,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.7,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.8,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.9,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          }
+        ]
+      },
+      "REB": {
+        "days": 25,
+        "top1HitRate": 0.2,
+        "top3HitRate": 0.36,
+        "brier": 0.004920140051680403,
+        "calibrationBins": [
+          {
+            "from": 0.0,
+            "count": 6533,
+            "meanProbability": 0.0034295499770396454,
+            "observedFrequency": 0.0032144497168222867
+          },
+          {
+            "from": 0.1,
+            "count": 47,
+            "meanProbability": 0.13511382978723405,
+            "observedFrequency": 0.10638297872340426
+          },
+          {
+            "from": 0.2,
+            "count": 4,
+            "meanProbability": 0.2294375,
+            "observedFrequency": 0.5
+          },
+          {
+            "from": 0.3,
+            "count": 2,
+            "meanProbability": 0.34155,
+            "observedFrequency": 1.0
+          },
+          {
+            "from": 0.4,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.5,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.6,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.7,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.8,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.9,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          }
+        ]
+      },
+      "AST": {
+        "days": 25,
+        "top1HitRate": 0.04,
+        "top3HitRate": 0.28,
+        "brier": 0.006007521272625803,
+        "calibrationBins": [
+          {
+            "from": 0.0,
+            "count": 6531,
+            "meanProbability": 0.003753827897718573,
+            "observedFrequency": 0.004440361353544633
+          },
+          {
+            "from": 0.1,
+            "count": 51,
+            "meanProbability": 0.1315813725490196,
+            "observedFrequency": 0.11764705882352941
+          },
+          {
+            "from": 0.2,
+            "count": 3,
+            "meanProbability": 0.23906666666666668,
+            "observedFrequency": 0.0
+          },
+          {
+            "from": 0.3,
+            "count": 1,
+            "meanProbability": 0.3002,
+            "observedFrequency": 0.0
+          },
+          {
+            "from": 0.4,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.5,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.6,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.7,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.8,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.9,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          }
+        ]
+      },
+      "BLK": {
+        "days": 25,
+        "top1HitRate": 0.44,
+        "top3HitRate": 0.44,
+        "brier": 0.006325285033875893,
+        "calibrationBins": [
+          {
+            "from": 0.0,
+            "count": 6544,
+            "meanProbability": 0.005780921454767727,
+            "observedFrequency": 0.004584352078239609
+          },
+          {
+            "from": 0.1,
+            "count": 29,
+            "meanProbability": 0.1423396551724138,
+            "observedFrequency": 0.10344827586206896
+          },
+          {
+            "from": 0.2,
+            "count": 6,
+            "meanProbability": 0.25556666666666666,
+            "observedFrequency": 0.8333333333333334
+          },
+          {
+            "from": 0.3,
+            "count": 7,
+            "meanProbability": 0.3469285714285714,
+            "observedFrequency": 0.2857142857142857
+          },
+          {
+            "from": 0.4,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.5,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.6,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.7,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.8,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.9,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          }
+        ]
+      },
+      "STL": {
+        "days": 25,
+        "top1HitRate": 0.04,
+        "top3HitRate": 0.32,
+        "brier": 0.010664346239454172,
+        "calibrationBins": [
+          {
+            "from": 0.0,
+            "count": 6570,
+            "meanProbability": 0.006736255707762557,
+            "observedFrequency": 0.010197869101978691
+          },
+          {
+            "from": 0.1,
+            "count": 16,
+            "meanProbability": 0.134778125,
+            "observedFrequency": 0.0
+          },
+          {
+            "from": 0.2,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.3,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.4,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.5,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.6,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.7,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.8,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.9,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          }
+        ]
+      }
+    },
+    "note": "Top3命中率=推荐前三人至少一人并列或独占日榜第一；非球员实际排名前三。概率校准为并列第一事件可靠性分箱，未做事后拟合校准。"
+  },
+  "id": "322e66fec3b5fd5b"
+}
