@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "model": "healthy-expected-top3-v1.2",
+  "generatedAt": "2026-11-26T07:30:38.745204Z",
+  "date": "2026-11-27",
+  "simulations": 20000,
+  "seed": 20261027,
+  "state": "no_games",
+  "games": [],
+  "categories": {},
+  "warnings": [],
+  "diagnostics": [],
+  "probabilityNote": "概率为未校准模型在当前假设下的模拟频率；20000次的最坏蒙特卡洛标准误约0.35个百分点，不包含模型和输入误差。",
+  "evaluation": {
+    "evaluatedDays": 29,
+    "categories": {
+      "PTS": {
+        "days": 29,
+        "top1HitRate": 0.13793103448275862,
+        "top3HitRate": 0.3448275862068966,
+        "brier": 0.004754565524530216,
+        "calibrationBins": [
+          {
+            "from": 0.0,
+            "count": 7563,
+            "meanProbability": 0.003302624619859844,
+            "observedFrequency": 0.0034377892370752346
+          },
+          {
+            "from": 0.1,
+            "count": 40,
+            "meanProbability": 0.135195,
+            "observedFrequency": 0.125
+          },
+          {
+            "from": 0.2,
+            "count": 5,
+            "meanProbability": 0.23018999999999998,
+            "observedFrequency": 0.0
+          },
+          {
+            "from": 0.3,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.4,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.5,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.6,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.7,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.8,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.9,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          }
+        ]
+      },
+      "REB": {
+        "days": 29,
+        "top1HitRate": 0.20689655172413793,
+        "top3HitRate": 0.41379310344827586,
+        "brier": 0.005238861741527798,
+        "calibrationBins": [
+          {
+            "from": 0.0,
+            "count": 7547,
+            "meanProbability": 0.0034043924738306613,
+            "observedFrequency": 0.0034450775142440705
+          },
+          {
+            "from": 0.1,
+            "count": 52,
+            "meanProbability": 0.13377307692307694,
+            "observedFrequency": 0.11538461538461539
+          },
+          {
+            "from": 0.2,
+            "count": 6,
+            "meanProbability": 0.23904166666666668,
+            "observedFrequency": 0.3333333333333333
+          },
+          {
+            "from": 0.3,
+            "count": 3,
+            "meanProbability": 0.35638333333333333,
+            "observedFrequency": 0.6666666666666666
+          },
+          {
+            "from": 0.4,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.5,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.6,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.7,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.8,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.9,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          }
+        ]
+      },
+      "AST": {
+        "days": 29,
+        "top1HitRate": 0.10344827586206896,
+        "top3HitRate": 0.3103448275862069,
+        "brier": 0.0062279175129798916,
+        "calibrationBins": [
+          {
+            "from": 0.0,
+            "count": 7542,
+            "meanProbability": 0.0037310262529832937,
+            "observedFrequency": 0.004375497215592681
+          },
+          {
+            "from": 0.1,
+            "count": 61,
+            "meanProbability": 0.13072377049180328,
+            "observedFrequency": 0.14754098360655737
+          },
+          {
+            "from": 0.2,
+            "count": 4,
+            "meanProbability": 0.238275,
+            "observedFrequency": 0.0
+          },
+          {
+            "from": 0.3,
+            "count": 1,
+            "meanProbability": 0.3002,
+            "observedFrequency": 0.0
+          },
+          {
+            "from": 0.4,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.5,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.6,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.7,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.8,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.9,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          }
+        ]
+      },
+      "BLK": {
+        "days": 29,
+        "top1HitRate": 0.3793103448275862,
+        "top3HitRate": 0.3793103448275862,
+        "brier": 0.006377645059572934,
+        "calibrationBins": [
+          {
+            "from": 0.0,
+            "count": 7558,
+            "meanProbability": 0.005882673987827469,
+            "observedFrequency": 0.004763164858428155
+          },
+          {
+            "from": 0.1,
+            "count": 37,
+            "meanProbability": 0.13964864864864862,
+            "observedFrequency": 0.08108108108108109
+          },
+          {
+            "from": 0.2,
+            "count": 6,
+            "meanProbability": 0.25556666666666666,
+            "observedFrequency": 0.8333333333333334
+          },
+          {
+            "from": 0.3,
+            "count": 7,
+            "meanProbability": 0.34692857142857153,
+            "observedFrequency": 0.2857142857142857
+          },
+          {
+            "from": 0.4,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.5,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.6,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.7,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.8,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.9,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          }
+        ]
+      },
+      "STL": {
+        "days": 29,
+        "top1HitRate": 0.034482758620689655,
+        "top3HitRate": 0.3103448275862069,
+        "brier": 0.010380200443505225,
+        "calibrationBins": [
+          {
+            "from": 0.0,
+            "count": 7590,
+            "meanProbability": 0.006774519104084322,
+            "observedFrequency": 0.010013175230566536
+          },
+          {
+            "from": 0.1,
+            "count": 18,
+            "meanProbability": 0.13302777777777777,
+            "observedFrequency": 0.0
+          },
+          {
+            "from": 0.2,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.3,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.4,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.5,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.6,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.7,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.8,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          },
+          {
+            "from": 0.9,
+            "count": 0,
+            "meanProbability": null,
+            "observedFrequency": null
+          }
+        ]
+      }
+    },
+    "note": "Top3命中率=推荐前三人至少一人并列或独占日榜第一；非球员实际排名前三。概率校准为并列第一事件可靠性分箱，未做事后拟合校准。"
+  },
+  "id": "ab6e3836c5844340"
+}
